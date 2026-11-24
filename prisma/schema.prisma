@@ -1,0 +1,74 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// A single shop record. In a real Shopify app this would be created on OAuth install.
+// For this self-hosted version we keep a single shop row keyed by shopDomain.
+model Shop {
+  id              String   @id @default(cuid())
+  shopDomain      String   @unique // e.g. noovi-co.myshopify.com
+  businessName    String?  // shown in the widget header
+  placeId         String?  // Google Places Place ID
+  googleApiKey    String?  // stored server-side only, never exposed publicly
+  // Sizing config (px). Responsive: separate desktop / mobile.
+  desktopCardWidth    Int @default(320)
+  desktopCardHeight   Int @default(220) // min-height of body
+  desktopCardGap      Int @default(20)
+  desktopCardsVisible Int @default(3)   // how many visible at once on desktop
+  mobileCardWidth     Int @default(280)
+  mobileCardHeight    Int @default(200)
+  mobileCardGap       Int @default(12)
+  mobileCardsVisible  Int @default(1)
+  // Theme
+  accentColor     String   @default("#fe8403") // Google orange
+  cardBg          String   @default("#f6f6f8")
+  cardTextColor   String   @default("#303030")
+  widgetBg        String   @default("#ffffff")
+  // Behaviour
+  maxReviews      Int      @default(10)
+  autoplay        Boolean  @default(true)
+  autoplaySpeed   Int      @default(5000) // ms
+  showHeader      Boolean  @default(true)
+  showWriteButton Boolean  @default(true)
+  rtl             Boolean  @default(true) // noovi.co is RTL (Hebrew)
+  // Last sync state
+  lastSyncedAt    DateTime?
+  lastSyncStatus  String?  // "ok" | "error" | null
+  lastSyncError   String?
+  rating          Float?   @default(0)   // average rating (cached)
+  userRatingTotal Int?     @default(0)   // total review count (cached)
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  reviews         Review[]
+}
+
+model Review {
+  id           String   @id @default(cuid())
+  shopId       String
+  googleId     String   // google's author id (contributor url id)
+  authorName   String
+  authorPhoto  String?  // profile picture URL
+  rating       Int      // 1-5
+  text         String
+  language     String?
+  publishedAt  DateTime
+  placeId      String?  // place the review was left for
+  authorUrl    String?  // google maps contributor url
+
+  shop         Shop     @relation(fields: [shopId], references: [id], onDelete: Cascade)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@unique([shopId, googleId])
+  @@index([shopId, publishedAt])
+}

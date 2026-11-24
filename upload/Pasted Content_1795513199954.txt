@@ -1,0 +1,590 @@
+this is the current review app> <div id="shopify-section-google_reviews_plus_3FTrrV" class="shopify-section"><script shopify_url="noovi-co.myshopify.com" shopify_data="{&quot;first_name&quot;:null,&quot;address1&quot;:&quot;Derech ha Tabor &quot;,&quot;phone&quot;:&quot;0524218507&quot;,&quot;city&quot;:&quot;Kibbutz Ein Dor&quot;,&quot;zip&quot;:&quot;&quot;,&quot;province&quot;:&quot;&quot;,&quot;country&quot;:&quot;Israel&quot;,&quot;last_name&quot;:null,&quot;address2&quot;:&quot;2&quot;,&quot;company&quot;:&quot;&quot;,&quot;latitude&quot;:32.656879,&quot;longitude&quot;:35.4190984,&quot;name&quot;:&quot;&quot;,&quot;country_code&quot;:&quot;IL&quot;,&quot;province_code&quot;:null}" defer="defer" src="https://assets.entanglecommerce.com/google-review-assets/gr-extension.min.js"></script>
+<link href="https://assets.entanglecommerce.com/google-review-assets/gr-extension.min.css" rel="stylesheet" type="text/css"> <div id="grp-entangle--root" class="grp-entangle--root" data-grp-initialized="true" style="background-color: rgb(255, 255, 255); padding-top: 30px;">
+        
+    <div class="grp-entangle-write-div" style=" display: none"> 
+    </div>
+    <div class="grp-entangle-swiper-main grp-entangle-layout-body-wrapper">
+      <div class="grp-entangle-swipper-badge-wrapper" style="flex-direction: row">
+            
+          <div style="color: #303030;
+
+      ; padding: 10px; " class="grp-entangle-rating-container">
+              <div class="grp-entangle-badge">
+                  <div class="grp-entangle-head-badge" style="">
+                      <div class="grp-entangle-badge-flex">
+                          <div class="grp-entangle-badge-thumbnail"><img alt="Noovi.co logo" class="grp-entangle-source-image" loading="lazy" src="https://assets.entanglecommerce.com/google-review-assets/place/noovi-co.myshopify.com/logo/1776255838_69df835e59fae.jpeg"></div>
+                          <div class="grp-entangle-badge-vertical grp-entangle-gap-sm" style="line-height:1.1 ;width:170px;">
+                              
+                              <div class="grp-entangle-heading--small">Noovi.co</div>
+                              <div class="grp-entangle-badge-stars">
+                              <span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span>
+                              </div>
+                              <div class="grp-main-hyper-link "> <a target="_blank" rel="noreferrer" style=" color: #303030;
+
+      " onmouseover="this.style.color='#fe8403'" onmouseout="this.style.color='#303030'" href="https://www.google.com/maps/search/?api=1&amp;query=Google&amp;query_place_id=ChIJma3fi-NFHBURlbumr4zRmgQ" class="grp-hyper-link grp-total-reviews" disabled="false"><b class="grp-hyper-link-bold grp-total-reviews">44 Google Reviews</b> </a></div>
+                              
+  
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+        
+  
+                <div style="width: 100%; position: relative; overflow: hidden;">
+      <div class="grp-entangle-swiper-wrap" id="grp-entangle-width-check">
+            
+          <div class="grp-hover-effect grp-slider-arrow grp-slider-prev-grp-entangle--root grp-button-background" style="color: rgb(48, 48, 48); flex: 0 0 auto; cursor: pointer; position: absolute; left: 0px; top: 45%;">
+            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+      <div id="new-rocket-slider-grp-entangle--root" data-paginationclass="grp-pagination-badge-I-grp-entangle--root" data-slides-per-view="3" data-showpagination="true" data-autoplay="true" slidedelay="5" data-speed="0.6" numofreviews="10" sliderdirection="left_to_right" style="overflow: hidden;"><div class="slider-wrapper"><div class="slider-track" style="display: flex; gap: 20px; align-items: start; will-change: transform; transition: transform 0.4s; transform: translateX(-1476.67px);"><div class=" grp-slider-slide" style="flex: 0 0 275.333px; min-width: 0px; transform: translateX(2953.33px);">
+                            
+      <div class="grp-entangle-item grp-entangle-review-clamp  " style="min-height: 170px; height: auto; margin-top: 0px; background-color: #f6f6f8; color: #303030;  border-radius: 10px;">
+        <div class="grp-entangle-item-head">
+          <div class="grp-entangle-item-head-group-left grp-entangle-item-head-group">
+                <div style="position: relative;">
+            
+              <div class="grp-entangle-item-head-image">
+                <img loading="lazy" src="https://lh3.googleusercontent.com/a/ACg8ocJxypK_53frBXYDnc8gM5wavUtgxDOv9lRaj9QuW-RgNPQL-Q" class="grp-entangle-item-head-image--image" alt="User Image">
+              </div>
+            
+                <span style="position: absolute; top: 20px; right: -5px; background: white; border-radius: 50%; padding: 2px; display: flex; align-items: center; justify-content: center; z-index: 1;"><svg id="Layer_2" data-name="Layer 2" style="height:15px;width:15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1 {fill: #4285f4;} .cls-1, .cls-2 {fill-rule: evenodd;stroke-width: 0px;}.cls-2 {fill: #fff}</style></defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M7.29.34c.17-.22.43-.34.71-.34s.54.13.71.34l.78,1.01c.06.08.15.14.25.16.1.03.2.02.3-.02l1.18-.48c.26-.1.54-.08.78.05.24.14.4.38.44.65l.18,1.26c.01.1.06.19.13.26.07.07.16.12.26.13l1.26.18c.27.04.51.2.65.44.14.24.16.53.05.78l-.48,1.18c-.04.09-.04.2-.02.3.03.1.08.18.16.25l1.01.79c.22.17.34.43.34.71s-.13.54-.34.71l-1.01.78c-.08.06-.14.15-.16.25-.03.1-.02.2.02.3l.48,1.18c.1.26.08.54-.05.78-.14.24-.38.4-.65.44l-1.26.18c-.1.01-.19.06-.26.13s-.12.16-.13.26l-.18,1.27c-.04.27-.2.51-.44.65-.24.14-.53.16-.78.05l-1.18-.48c-.09-.04-.2-.04-.3-.02-.1.03-.18.08-.25.16l-.78,1.01c-.17.22-.43.34-.71.34s-.54-.13-.71-.34l-.78-1.01c-.06-.08-.15-.14-.25-.16-.1-.03-.2-.02-.3.02l-1.18.48c-.26.1-.54.08-.78-.05-.24-.14-.4-.38-.44-.65l-.18-1.27c-.01-.1-.06-.19-.13-.26-.07-.07-.16-.12-.26-.13l-1.26-.18c-.27-.04-.51-.2-.65-.44-.14-.24-.16-.53-.05-.78l.48-1.18c.04-.09.04-.2.02-.3-.03-.1-.08-.18-.16-.25l-1.01-.78c-.22-.17-.34-.43-.34-.71s.13-.54.34-.71l1.01-.79c.08-.06.14-.15.16-.25.03-.1.02-.2-.02-.3l-.48-1.18c-.1-.26-.08-.54.05-.78.14-.24.38-.4.65-.44l1.26-.18c.1-.01.19-.06.26-.13.07-.07.12-.16.13-.26l.18-1.26c.04-.27.2-.51.44-.65.24-.14.53-.16.78-.05l1.18.48c.09.04.2.04.3.02.1-.03.18-.08.25-.16l.78-1.01Z"></path>
+      <path class="cls-2" d="M7.74,8.05l2.49-2.5c.19-.19.49-.19.67,0l.67.67c.19.19.19.49,0,.67l-3.32,3.33s-.02.03-.03.04l-.67.67c-.09.09-.22.14-.34.14s-.24-.05-.34-.14l-.67-.67s-.02-.02-.03-.04l-1.74-1.74c-.19-.19-.19-.48,0-.67l.67-.67c.19-.19.49-.19.67,0l1.32,1.32h0s.12.12.12.12h0s1.35,1.33,1.35,1.33l-.82-1.86Z"></path>
+    </g>
+  </g>
+  </svg></span>
+                </div>
+            <div class="grp-entangle-item-head-name-group">
+            <div style="display: flex; align-items: center;">
+              
+                <div class="grp-entangle-item-head-name grp-mid">Leah Segal</div>
+              
+                
+              </div>
+                <div class="grp-entangle-item-date">אוג׳ 24, 2026
+                
+                </div>
+            </div>
+  
+            </div>
+            
+            <div class="grp-entangle-item-head-logo-wrapper">
+            <a href="https://www.google.com/maps/contrib/112551465299679175015/place/ChIJma3fi-NFHBURlbumr4zRmgQ" rel="noreferrer" aria-label="review the reviwers" target="blank"> <svg style="width:17px;height:17px;" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"></path><path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"></path><path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"></path><path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"></path></g></svg>
+            </a>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body-stars" style="text-align: right; display: block;">
+          <div class="grp-entangle-rating" style="display:flex; gap:4px; justify-content:right;">
+            <span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body" style="text-align: right;display: flex; gap: 8px; flex-direction: column; align-items: unset;">
+          <div class="grp-entangle-item-body-review truncated" style="text-align: right; font-size: 14px;" "="">חיפשתי סדנא מיוחדת לחופש הגדול לי ולבנות שלי 13 ו 8. היו המון אפשרויות. חשבתי על משהו שאני ממש אוהבת ואולי אקח את הבנות לקבל טעימה. ואז ראיתי פירסום של דנה מ noovi וידעתי שזה בדיוק מה שאני רוצה. השתתפנו בסדנא במעברות עם עוד 2 משתתפות מקסימות. אוירה מקסימה של לימוד, התנסות והמון סבלנות. לא האמנתי אבל הקטנה בת 8 תפרה את הבובה כמעט לבדה עם תמיכה של דנה. 4 שעות שעברו בטיל ויצירה באמת מופלאה של כל אחת מאיתנו ❤️
+אז אם מתחשק לכם משהו קצת אחר שכולו יצירה ויוצאת חומד של בובה בסיום הסדנא צרו קשר עם דנה. מתאים לכל אחד גם למי שלא תפר מימיו.</div>
+                
+            
+            
+        </div>
+      </div>
+    
+                                </div><div class=" grp-slider-slide" style="flex: 0 0 275.333px; min-width: 0px; transform: translateX(2953.33px);">
+                            
+      <div class="grp-entangle-item grp-entangle-review-clamp  " style="min-height: 170px; height: auto; margin-top: 0px; background-color: #f6f6f8; color: #303030;  border-radius: 10px;">
+        <div class="grp-entangle-item-head">
+          <div class="grp-entangle-item-head-group-left grp-entangle-item-head-group">
+                <div style="position: relative;">
+            
+              <div class="grp-entangle-item-head-image">
+                <img loading="lazy" src="https://lh3.googleusercontent.com/a/ACg8ocIklDt0tteAb8aarTCYrbeVk6lhKJ6iXmH-quJio5A_B_IHfQ" class="grp-entangle-item-head-image--image" alt="User Image">
+              </div>
+            
+                <span style="position: absolute; top: 20px; right: -5px; background: white; border-radius: 50%; padding: 2px; display: flex; align-items: center; justify-content: center; z-index: 1;"><svg id="Layer_2" data-name="Layer 2" style="height:15px;width:15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1 {fill: #4285f4;} .cls-1, .cls-2 {fill-rule: evenodd;stroke-width: 0px;}.cls-2 {fill: #fff}</style></defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M7.29.34c.17-.22.43-.34.71-.34s.54.13.71.34l.78,1.01c.06.08.15.14.25.16.1.03.2.02.3-.02l1.18-.48c.26-.1.54-.08.78.05.24.14.4.38.44.65l.18,1.26c.01.1.06.19.13.26.07.07.16.12.26.13l1.26.18c.27.04.51.2.65.44.14.24.16.53.05.78l-.48,1.18c-.04.09-.04.2-.02.3.03.1.08.18.16.25l1.01.79c.22.17.34.43.34.71s-.13.54-.34.71l-1.01.78c-.08.06-.14.15-.16.25-.03.1-.02.2.02.3l.48,1.18c.1.26.08.54-.05.78-.14.24-.38.4-.65.44l-1.26.18c-.1.01-.19.06-.26.13s-.12.16-.13.26l-.18,1.27c-.04.27-.2.51-.44.65-.24.14-.53.16-.78.05l-1.18-.48c-.09-.04-.2-.04-.3-.02-.1.03-.18.08-.25.16l-.78,1.01c-.17.22-.43.34-.71.34s-.54-.13-.71-.34l-.78-1.01c-.06-.08-.15-.14-.25-.16-.1-.03-.2-.02-.3.02l-1.18.48c-.26.1-.54.08-.78-.05-.24-.14-.4-.38-.44-.65l-.18-1.27c-.01-.1-.06-.19-.13-.26-.07-.07-.16-.12-.26-.13l-1.26-.18c-.27-.04-.51-.2-.65-.44-.14-.24-.16-.53-.05-.78l.48-1.18c.04-.09.04-.2.02-.3-.03-.1-.08-.18-.16-.25l-1.01-.78c-.22-.17-.34-.43-.34-.71s.13-.54.34-.71l1.01-.79c.08-.06.14-.15.16-.25.03-.1.02-.2-.02-.3l-.48-1.18c-.1-.26-.08-.54.05-.78.14-.24.38-.4.65-.44l1.26-.18c.1-.01.19-.06.26-.13.07-.07.12-.16.13-.26l.18-1.26c.04-.27.2-.51.44-.65.24-.14.53-.16.78-.05l1.18.48c.09.04.2.04.3.02.1-.03.18-.08.25-.16l.78-1.01Z"></path>
+      <path class="cls-2" d="M7.74,8.05l2.49-2.5c.19-.19.49-.19.67,0l.67.67c.19.19.19.49,0,.67l-3.32,3.33s-.02.03-.03.04l-.67.67c-.09.09-.22.14-.34.14s-.24-.05-.34-.14l-.67-.67s-.02-.02-.03-.04l-1.74-1.74c-.19-.19-.19-.48,0-.67l.67-.67c.19-.19.49-.19.67,0l1.32,1.32h0s.12.12.12.12h0s1.35,1.33,1.35,1.33l-.82-1.86Z"></path>
+    </g>
+  </g>
+  </svg></span>
+                </div>
+            <div class="grp-entangle-item-head-name-group">
+            <div style="display: flex; align-items: center;">
+              
+                <div class="grp-entangle-item-head-name grp-mid">Liz</div>
+              
+                
+              </div>
+                <div class="grp-entangle-item-date">אוג׳ 13, 2026
+                
+                </div>
+            </div>
+  
+            </div>
+            
+            <div class="grp-entangle-item-head-logo-wrapper">
+            <a href="https://www.google.com/maps/contrib/109141150831076152042/place/ChIJma3fi-NFHBURlbumr4zRmgQ" rel="noreferrer" aria-label="review the reviwers" target="blank"> <svg style="width:17px;height:17px;" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"></path><path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"></path><path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"></path><path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"></path></g></svg>
+            </a>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body-stars" style="text-align: right; display: block;">
+          <div class="grp-entangle-rating" style="display:flex; gap:4px; justify-content:right;">
+            <span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body" style="text-align: right;display: flex; gap: 8px; flex-direction: column; align-items: unset;">
+          <div class="grp-entangle-item-body-review truncated" style="text-align: right; font-size: 14px;" "="">סדנא נהדרת!! דנה מהממת ומלאת סבלנות, הגעתי בלי ידע מקדים בתפירה ויצאה לי בובה מושלמת בזכות ההדרכה שלה! תודה ענקית, חוויה מהנה ומומלצת בחום❤️</div>
+                
+            
+            
+        </div>
+      </div>
+    
+                                </div><div class=" grp-slider-slide" style="flex: 0 0 275.333px; min-width: 0px; transform: translateX(0px);">
+                            
+      <div class="grp-entangle-item grp-entangle-review-clamp  " style="min-height: 170px; height: auto; margin-top: 0px; background-color: #f6f6f8; color: #303030;  border-radius: 10px;">
+        <div class="grp-entangle-item-head">
+          <div class="grp-entangle-item-head-group-left grp-entangle-item-head-group">
+                <div style="position: relative;">
+            
+              <div class="grp-entangle-item-head-image">
+                <img loading="lazy" src="https://lh3.googleusercontent.com/a-/ALV-UjWhEmv5DSf2qFQHG3GfCjRliNrHbBTNRzRncRSYz0eE8HuYf3E" class="grp-entangle-item-head-image--image" alt="User Image">
+              </div>
+            
+                <span style="position: absolute; top: 20px; right: -5px; background: white; border-radius: 50%; padding: 2px; display: flex; align-items: center; justify-content: center; z-index: 1;"><svg id="Layer_2" data-name="Layer 2" style="height:15px;width:15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1 {fill: #4285f4;} .cls-1, .cls-2 {fill-rule: evenodd;stroke-width: 0px;}.cls-2 {fill: #fff}</style></defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M7.29.34c.17-.22.43-.34.71-.34s.54.13.71.34l.78,1.01c.06.08.15.14.25.16.1.03.2.02.3-.02l1.18-.48c.26-.1.54-.08.78.05.24.14.4.38.44.65l.18,1.26c.01.1.06.19.13.26.07.07.16.12.26.13l1.26.18c.27.04.51.2.65.44.14.24.16.53.05.78l-.48,1.18c-.04.09-.04.2-.02.3.03.1.08.18.16.25l1.01.79c.22.17.34.43.34.71s-.13.54-.34.71l-1.01.78c-.08.06-.14.15-.16.25-.03.1-.02.2.02.3l.48,1.18c.1.26.08.54-.05.78-.14.24-.38.4-.65.44l-1.26.18c-.1.01-.19.06-.26.13s-.12.16-.13.26l-.18,1.27c-.04.27-.2.51-.44.65-.24.14-.53.16-.78.05l-1.18-.48c-.09-.04-.2-.04-.3-.02-.1.03-.18.08-.25.16l-.78,1.01c-.17.22-.43.34-.71.34s-.54-.13-.71-.34l-.78-1.01c-.06-.08-.15-.14-.25-.16-.1-.03-.2-.02-.3.02l-1.18.48c-.26.1-.54.08-.78-.05-.24-.14-.4-.38-.44-.65l-.18-1.27c-.01-.1-.06-.19-.13-.26-.07-.07-.16-.12-.26-.13l-1.26-.18c-.27-.04-.51-.2-.65-.44-.14-.24-.16-.53-.05-.78l.48-1.18c.04-.09.04-.2.02-.3-.03-.1-.08-.18-.16-.25l-1.01-.78c-.22-.17-.34-.43-.34-.71s.13-.54.34-.71l1.01-.79c.08-.06.14-.15.16-.25.03-.1.02-.2-.02-.3l-.48-1.18c-.1-.26-.08-.54.05-.78.14-.24.38-.4.65-.44l1.26-.18c.1-.01.19-.06.26-.13.07-.07.12-.16.13-.26l.18-1.26c.04-.27.2-.51.44-.65.24-.14.53-.16.78-.05l1.18.48c.09.04.2.04.3.02.1-.03.18-.08.25-.16l.78-1.01Z"></path>
+      <path class="cls-2" d="M7.74,8.05l2.49-2.5c.19-.19.49-.19.67,0l.67.67c.19.19.19.49,0,.67l-3.32,3.33s-.02.03-.03.04l-.67.67c-.09.09-.22.14-.34.14s-.24-.05-.34-.14l-.67-.67s-.02-.02-.03-.04l-1.74-1.74c-.19-.19-.19-.48,0-.67l.67-.67c.19-.19.49-.19.67,0l1.32,1.32h0s.12.12.12.12h0s1.35,1.33,1.35,1.33l-.82-1.86Z"></path>
+    </g>
+  </g>
+  </svg></span>
+                </div>
+            <div class="grp-entangle-item-head-name-group">
+            <div style="display: flex; align-items: center;">
+              
+                <div class="grp-entangle-item-head-name grp-mid">יהודית לוי</div>
+              
+                
+              </div>
+                <div class="grp-entangle-item-date">אוג׳ 13, 2026
+                
+                </div>
+            </div>
+  
+            </div>
+            
+            <div class="grp-entangle-item-head-logo-wrapper">
+            <a href="https://www.google.com/maps/contrib/116553073790690662358/place/ChIJma3fi-NFHBURlbumr4zRmgQ" rel="noreferrer" aria-label="review the reviwers" target="blank"> <svg style="width:17px;height:17px;" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"></path><path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"></path><path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"></path><path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"></path></g></svg>
+            </a>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body-stars" style="text-align: right; display: block;">
+          <div class="grp-entangle-rating" style="display:flex; gap:4px; justify-content:right;">
+            <span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body" style="text-align: right;display: flex; gap: 8px; flex-direction: column; align-items: unset;">
+          <div class="grp-entangle-item-body-review truncated" style="text-align: right; font-size: 14px;" "="">סדנה יצירתית ומיוחדת בהובלה של דנה האלופה,מליאת כשרון וסבלנות,נועם והשראה,היה נפלא ממש מזמן לא נהניתי כך❤️</div>
+                
+            
+            
+        </div>
+      </div>
+    
+                                </div><div class=" grp-slider-slide" style="flex: 0 0 275.333px; min-width: 0px; transform: translateX(0px);">
+                            
+      <div class="grp-entangle-item grp-entangle-review-clamp  " style="min-height: 170px; height: auto; margin-top: 0px; background-color: #f6f6f8; color: #303030;  border-radius: 10px;">
+        <div class="grp-entangle-item-head">
+          <div class="grp-entangle-item-head-group-left grp-entangle-item-head-group">
+                <div style="position: relative;">
+            
+              <div class="grp-entangle-item-head-image">
+                <img loading="lazy" src="https://lh3.googleusercontent.com/a-/ALV-UjWRqH5cnrgvsg6JkA17oR9JYtArJO6-t0CQslWyaF23Su4lUQ5q" class="grp-entangle-item-head-image--image" alt="User Image">
+              </div>
+            
+                <span style="position: absolute; top: 20px; right: -5px; background: white; border-radius: 50%; padding: 2px; display: flex; align-items: center; justify-content: center; z-index: 1;"><svg id="Layer_2" data-name="Layer 2" style="height:15px;width:15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1 {fill: #4285f4;} .cls-1, .cls-2 {fill-rule: evenodd;stroke-width: 0px;}.cls-2 {fill: #fff}</style></defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M7.29.34c.17-.22.43-.34.71-.34s.54.13.71.34l.78,1.01c.06.08.15.14.25.16.1.03.2.02.3-.02l1.18-.48c.26-.1.54-.08.78.05.24.14.4.38.44.65l.18,1.26c.01.1.06.19.13.26.07.07.16.12.26.13l1.26.18c.27.04.51.2.65.44.14.24.16.53.05.78l-.48,1.18c-.04.09-.04.2-.02.3.03.1.08.18.16.25l1.01.79c.22.17.34.43.34.71s-.13.54-.34.71l-1.01.78c-.08.06-.14.15-.16.25-.03.1-.02.2.02.3l.48,1.18c.1.26.08.54-.05.78-.14.24-.38.4-.65.44l-1.26.18c-.1.01-.19.06-.26.13s-.12.16-.13.26l-.18,1.27c-.04.27-.2.51-.44.65-.24.14-.53.16-.78.05l-1.18-.48c-.09-.04-.2-.04-.3-.02-.1.03-.18.08-.25.16l-.78,1.01c-.17.22-.43.34-.71.34s-.54-.13-.71-.34l-.78-1.01c-.06-.08-.15-.14-.25-.16-.1-.03-.2-.02-.3.02l-1.18.48c-.26.1-.54.08-.78-.05-.24-.14-.4-.38-.44-.65l-.18-1.27c-.01-.1-.06-.19-.13-.26-.07-.07-.16-.12-.26-.13l-1.26-.18c-.27-.04-.51-.2-.65-.44-.14-.24-.16-.53-.05-.78l.48-1.18c.04-.09.04-.2.02-.3-.03-.1-.08-.18-.16-.25l-1.01-.78c-.22-.17-.34-.43-.34-.71s.13-.54.34-.71l1.01-.79c.08-.06.14-.15.16-.25.03-.1.02-.2-.02-.3l-.48-1.18c-.1-.26-.08-.54.05-.78.14-.24.38-.4.65-.44l1.26-.18c.1-.01.19-.06.26-.13.07-.07.12-.16.13-.26l.18-1.26c.04-.27.2-.51.44-.65.24-.14.53-.16.78-.05l1.18.48c.09.04.2.04.3.02.1-.03.18-.08.25-.16l.78-1.01Z"></path>
+      <path class="cls-2" d="M7.74,8.05l2.49-2.5c.19-.19.49-.19.67,0l.67.67c.19.19.19.49,0,.67l-3.32,3.33s-.02.03-.03.04l-.67.67c-.09.09-.22.14-.34.14s-.24-.05-.34-.14l-.67-.67s-.02-.02-.03-.04l-1.74-1.74c-.19-.19-.19-.48,0-.67l.67-.67c.19-.19.49-.19.67,0l1.32,1.32h0s.12.12.12.12h0s1.35,1.33,1.35,1.33l-.82-1.86Z"></path>
+    </g>
+  </g>
+  </svg></span>
+                </div>
+            <div class="grp-entangle-item-head-name-group">
+            <div style="display: flex; align-items: center;">
+              
+                <div class="grp-entangle-item-head-name grp-mid">Anat Monakier</div>
+              
+                
+              </div>
+                <div class="grp-entangle-item-date">אוג׳ 2, 2026
+                
+                </div>
+            </div>
+  
+            </div>
+            
+            <div class="grp-entangle-item-head-logo-wrapper">
+            <a href="https://www.google.com/maps/contrib/116818002289037148267/place/ChIJma3fi-NFHBURlbumr4zRmgQ" rel="noreferrer" aria-label="review the reviwers" target="blank"> <svg style="width:17px;height:17px;" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"></path><path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"></path><path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"></path><path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"></path></g></svg>
+            </a>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body-stars" style="text-align: right; display: block;">
+          <div class="grp-entangle-rating" style="display:flex; gap:4px; justify-content:right;">
+            <span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body" style="text-align: right;display: flex; gap: 8px; flex-direction: column; align-items: unset;">
+          <div class="grp-entangle-item-body-review truncated" style="text-align: right; font-size: 14px;" "="">דנה מהממת
+והסדנה היתה מרתקת ונתנה לי כלים וידע רב שאפשרו לי לחזור הביתה ולהתחיל לישם את מה שלמדתי. הייתי שמחה ללמוד איך להכין את הבד והבגדים כדי שהחוויה תהיה מושלמת.
+תודה דנה♡ ומחכה להמשך...</div>
+                
+            
+            
+        </div>
+      </div>
+    
+                                </div><div class=" grp-slider-slide" style="flex: 0 0 275.333px; min-width: 0px; transform: translateX(0px);">
+                            
+      <div class="grp-entangle-item grp-entangle-review-clamp  " style="min-height: 170px; height: auto; margin-top: 0px; background-color: #f6f6f8; color: #303030;  border-radius: 10px;">
+        <div class="grp-entangle-item-head">
+          <div class="grp-entangle-item-head-group-left grp-entangle-item-head-group">
+                <div style="position: relative;">
+            
+              <div class="grp-entangle-item-head-image">
+                <img loading="lazy" src="https://lh3.googleusercontent.com/a/ACg8ocIorp3xvxn8kTc0u8I_tR3eFm93F1FJ5JcLk-Bt4NYPeilvXw" class="grp-entangle-item-head-image--image" alt="User Image">
+              </div>
+            
+                <span style="position: absolute; top: 20px; right: -5px; background: white; border-radius: 50%; padding: 2px; display: flex; align-items: center; justify-content: center; z-index: 1;"><svg id="Layer_2" data-name="Layer 2" style="height:15px;width:15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1 {fill: #4285f4;} .cls-1, .cls-2 {fill-rule: evenodd;stroke-width: 0px;}.cls-2 {fill: #fff}</style></defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M7.29.34c.17-.22.43-.34.71-.34s.54.13.71.34l.78,1.01c.06.08.15.14.25.16.1.03.2.02.3-.02l1.18-.48c.26-.1.54-.08.78.05.24.14.4.38.44.65l.18,1.26c.01.1.06.19.13.26.07.07.16.12.26.13l1.26.18c.27.04.51.2.65.44.14.24.16.53.05.78l-.48,1.18c-.04.09-.04.2-.02.3.03.1.08.18.16.25l1.01.79c.22.17.34.43.34.71s-.13.54-.34.71l-1.01.78c-.08.06-.14.15-.16.25-.03.1-.02.2.02.3l.48,1.18c.1.26.08.54-.05.78-.14.24-.38.4-.65.44l-1.26.18c-.1.01-.19.06-.26.13s-.12.16-.13.26l-.18,1.27c-.04.27-.2.51-.44.65-.24.14-.53.16-.78.05l-1.18-.48c-.09-.04-.2-.04-.3-.02-.1.03-.18.08-.25.16l-.78,1.01c-.17.22-.43.34-.71.34s-.54-.13-.71-.34l-.78-1.01c-.06-.08-.15-.14-.25-.16-.1-.03-.2-.02-.3.02l-1.18.48c-.26.1-.54.08-.78-.05-.24-.14-.4-.38-.44-.65l-.18-1.27c-.01-.1-.06-.19-.13-.26-.07-.07-.16-.12-.26-.13l-1.26-.18c-.27-.04-.51-.2-.65-.44-.14-.24-.16-.53-.05-.78l.48-1.18c.04-.09.04-.2.02-.3-.03-.1-.08-.18-.16-.25l-1.01-.78c-.22-.17-.34-.43-.34-.71s.13-.54.34-.71l1.01-.79c.08-.06.14-.15.16-.25.03-.1.02-.2-.02-.3l-.48-1.18c-.1-.26-.08-.54.05-.78.14-.24.38-.4.65-.44l1.26-.18c.1-.01.19-.06.26-.13.07-.07.12-.16.13-.26l.18-1.26c.04-.27.2-.51.44-.65.24-.14.53-.16.78-.05l1.18.48c.09.04.2.04.3.02.1-.03.18-.08.25-.16l.78-1.01Z"></path>
+      <path class="cls-2" d="M7.74,8.05l2.49-2.5c.19-.19.49-.19.67,0l.67.67c.19.19.19.49,0,.67l-3.32,3.33s-.02.03-.03.04l-.67.67c-.09.09-.22.14-.34.14s-.24-.05-.34-.14l-.67-.67s-.02-.02-.03-.04l-1.74-1.74c-.19-.19-.19-.48,0-.67l.67-.67c.19-.19.49-.19.67,0l1.32,1.32h0s.12.12.12.12h0s1.35,1.33,1.35,1.33l-.82-1.86Z"></path>
+    </g>
+  </g>
+  </svg></span>
+                </div>
+            <div class="grp-entangle-item-head-name-group">
+            <div style="display: flex; align-items: center;">
+              
+                <div class="grp-entangle-item-head-name grp-mid">hadassi82</div>
+              
+                
+              </div>
+                <div class="grp-entangle-item-date">אוג׳ 2, 2026
+                
+                </div>
+            </div>
+  
+            </div>
+            
+            <div class="grp-entangle-item-head-logo-wrapper">
+            <a href="https://www.google.com/maps/contrib/110442746713041576658/place/ChIJma3fi-NFHBURlbumr4zRmgQ" rel="noreferrer" aria-label="review the reviwers" target="blank"> <svg style="width:17px;height:17px;" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"></path><path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"></path><path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"></path><path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"></path></g></svg>
+            </a>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body-stars" style="text-align: right; display: block;">
+          <div class="grp-entangle-rating" style="display:flex; gap:4px; justify-content:right;">
+            <span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body" style="text-align: right;display: flex; gap: 8px; flex-direction: column; align-items: unset;">
+          <div class="grp-entangle-item-body-review truncated" style="text-align: right; font-size: 14px;" "="">השתתפנו בסדנה של דנה ליצירת בובות, וזו הייתה חוויה מקסימה מההתחלה ועד הסוף.
+דנה המהממת העבירה את הסדנה במקצועיות, בסבלנות ובאווירה נעימה וכיפית, וליוותה כל אחד מאיתנו צעד אחר צעד עד לתוצאה הסופית. היה מדהים לראות איך מכמה פיסות בד וחומרי גלם פשוטים נולדות בובות כל כך מתוקות. הארנבת והאייל שהכנו זכו להתפעלות מכל מי שראה אותם, והכי חשוב – יצאנו עם חיוך גדול, כי מעבר לבובות שלקחנו הביתה בגאווה ובסיפוק, לקחנו גם זכרונות כיפיים מחוויה מקסימה ומהנה.
+מומלץ מכל הלב!</div>
+                
+            
+            
+        </div>
+      </div>
+    
+                                </div><div class=" grp-slider-slide" style="flex: 0 0 275.333px; min-width: 0px; transform: translateX(0px);">
+                            
+      <div class="grp-entangle-item grp-entangle-review-clamp  " style="min-height: 170px; height: auto; margin-top: 0px; background-color: #f6f6f8; color: #303030;  border-radius: 10px;">
+        <div class="grp-entangle-item-head">
+          <div class="grp-entangle-item-head-group-left grp-entangle-item-head-group">
+                <div style="position: relative;">
+            
+              <div class="grp-entangle-item-head-image">
+                <img loading="lazy" src="https://lh3.googleusercontent.com/a/ACg8ocKb6RDhThEpe5elaJk1-89ozuxJVZ_8BtkTuauI858kFC0MBg" class="grp-entangle-item-head-image--image" alt="User Image">
+              </div>
+            
+                <span style="position: absolute; top: 20px; right: -5px; background: white; border-radius: 50%; padding: 2px; display: flex; align-items: center; justify-content: center; z-index: 1;"><svg id="Layer_2" data-name="Layer 2" style="height:15px;width:15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1 {fill: #4285f4;} .cls-1, .cls-2 {fill-rule: evenodd;stroke-width: 0px;}.cls-2 {fill: #fff}</style></defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M7.29.34c.17-.22.43-.34.71-.34s.54.13.71.34l.78,1.01c.06.08.15.14.25.16.1.03.2.02.3-.02l1.18-.48c.26-.1.54-.08.78.05.24.14.4.38.44.65l.18,1.26c.01.1.06.19.13.26.07.07.16.12.26.13l1.26.18c.27.04.51.2.65.44.14.24.16.53.05.78l-.48,1.18c-.04.09-.04.2-.02.3.03.1.08.18.16.25l1.01.79c.22.17.34.43.34.71s-.13.54-.34.71l-1.01.78c-.08.06-.14.15-.16.25-.03.1-.02.2.02.3l.48,1.18c.1.26.08.54-.05.78-.14.24-.38.4-.65.44l-1.26.18c-.1.01-.19.06-.26.13s-.12.16-.13.26l-.18,1.27c-.04.27-.2.51-.44.65-.24.14-.53.16-.78.05l-1.18-.48c-.09-.04-.2-.04-.3-.02-.1.03-.18.08-.25.16l-.78,1.01c-.17.22-.43.34-.71.34s-.54-.13-.71-.34l-.78-1.01c-.06-.08-.15-.14-.25-.16-.1-.03-.2-.02-.3.02l-1.18.48c-.26.1-.54.08-.78-.05-.24-.14-.4-.38-.44-.65l-.18-1.27c-.01-.1-.06-.19-.13-.26-.07-.07-.16-.12-.26-.13l-1.26-.18c-.27-.04-.51-.2-.65-.44-.14-.24-.16-.53-.05-.78l.48-1.18c.04-.09.04-.2.02-.3-.03-.1-.08-.18-.16-.25l-1.01-.78c-.22-.17-.34-.43-.34-.71s.13-.54.34-.71l1.01-.79c.08-.06.14-.15.16-.25.03-.1.02-.2-.02-.3l-.48-1.18c-.1-.26-.08-.54.05-.78.14-.24.38-.4.65-.44l1.26-.18c.1-.01.19-.06.26-.13.07-.07.12-.16.13-.26l.18-1.26c.04-.27.2-.51.44-.65.24-.14.53-.16.78-.05l1.18.48c.09.04.2.04.3.02.1-.03.18-.08.25-.16l.78-1.01Z"></path>
+      <path class="cls-2" d="M7.74,8.05l2.49-2.5c.19-.19.49-.19.67,0l.67.67c.19.19.19.49,0,.67l-3.32,3.33s-.02.03-.03.04l-.67.67c-.09.09-.22.14-.34.14s-.24-.05-.34-.14l-.67-.67s-.02-.02-.03-.04l-1.74-1.74c-.19-.19-.19-.48,0-.67l.67-.67c.19-.19.49-.19.67,0l1.32,1.32h0s.12.12.12.12h0s1.35,1.33,1.35,1.33l-.82-1.86Z"></path>
+    </g>
+  </g>
+  </svg></span>
+                </div>
+            <div class="grp-entangle-item-head-name-group">
+            <div style="display: flex; align-items: center;">
+              
+                <div class="grp-entangle-item-head-name grp-mid">Marina Ashdod</div>
+              
+                
+              </div>
+                <div class="grp-entangle-item-date">יוני 21, 2026
+                
+                </div>
+            </div>
+  
+            </div>
+            
+            <div class="grp-entangle-item-head-logo-wrapper">
+            <a href="https://www.google.com/maps/contrib/118296864182033901762/place/ChIJma3fi-NFHBURlbumr4zRmgQ" rel="noreferrer" aria-label="review the reviwers" target="blank"> <svg style="width:17px;height:17px;" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"></path><path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"></path><path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"></path><path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"></path></g></svg>
+            </a>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body-stars" style="text-align: right; display: block;">
+          <div class="grp-entangle-rating" style="display:flex; gap:4px; justify-content:right;">
+            <span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body" style="text-align: right;display: flex; gap: 8px; flex-direction: column; align-items: unset;">
+          <div class="grp-entangle-item-body-review truncated" style="text-align: right; font-size: 14px;" "="">נהניתי מאוד מהסדנה! הייתה חוויה יצירתית, נעימה ומלמדת. דנה נתנה הדרכה מקצועית וסבלנית, ובסיום יצאתי עם בובה מקסימה שהכנתי בעצמי. תודה רבה על חוויה מיוחדת ומהנה, ממליצה בחום!🌷🧵🪡🐭</div>
+                
+            
+            
+        </div>
+      </div>
+    
+                                </div><div class=" grp-slider-slide" style="flex: 0 0 275.333px; min-width: 0px; transform: translateX(0px);">
+                            
+      <div class="grp-entangle-item grp-entangle-review-clamp  " style="min-height: 170px; height: auto; margin-top: 0px; background-color: #f6f6f8; color: #303030;  border-radius: 10px;">
+        <div class="grp-entangle-item-head">
+          <div class="grp-entangle-item-head-group-left grp-entangle-item-head-group">
+                <div style="position: relative;">
+            
+              <div class="grp-entangle-item-head-image">
+                <img loading="lazy" src="https://lh3.googleusercontent.com/a/ACg8ocLsPW16bx76S63d5_RzcDd_vZN1ExkElwJNq6SdbrWD8ns0Ig" class="grp-entangle-item-head-image--image" alt="User Image">
+              </div>
+            
+                <span style="position: absolute; top: 20px; right: -5px; background: white; border-radius: 50%; padding: 2px; display: flex; align-items: center; justify-content: center; z-index: 1;"><svg id="Layer_2" data-name="Layer 2" style="height:15px;width:15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1 {fill: #4285f4;} .cls-1, .cls-2 {fill-rule: evenodd;stroke-width: 0px;}.cls-2 {fill: #fff}</style></defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M7.29.34c.17-.22.43-.34.71-.34s.54.13.71.34l.78,1.01c.06.08.15.14.25.16.1.03.2.02.3-.02l1.18-.48c.26-.1.54-.08.78.05.24.14.4.38.44.65l.18,1.26c.01.1.06.19.13.26.07.07.16.12.26.13l1.26.18c.27.04.51.2.65.44.14.24.16.53.05.78l-.48,1.18c-.04.09-.04.2-.02.3.03.1.08.18.16.25l1.01.79c.22.17.34.43.34.71s-.13.54-.34.71l-1.01.78c-.08.06-.14.15-.16.25-.03.1-.02.2.02.3l.48,1.18c.1.26.08.54-.05.78-.14.24-.38.4-.65.44l-1.26.18c-.1.01-.19.06-.26.13s-.12.16-.13.26l-.18,1.27c-.04.27-.2.51-.44.65-.24.14-.53.16-.78.05l-1.18-.48c-.09-.04-.2-.04-.3-.02-.1.03-.18.08-.25.16l-.78,1.01c-.17.22-.43.34-.71.34s-.54-.13-.71-.34l-.78-1.01c-.06-.08-.15-.14-.25-.16-.1-.03-.2-.02-.3.02l-1.18.48c-.26.1-.54.08-.78-.05-.24-.14-.4-.38-.44-.65l-.18-1.27c-.01-.1-.06-.19-.13-.26-.07-.07-.16-.12-.26-.13l-1.26-.18c-.27-.04-.51-.2-.65-.44-.14-.24-.16-.53-.05-.78l.48-1.18c.04-.09.04-.2.02-.3-.03-.1-.08-.18-.16-.25l-1.01-.78c-.22-.17-.34-.43-.34-.71s.13-.54.34-.71l1.01-.79c.08-.06.14-.15.16-.25.03-.1.02-.2-.02-.3l-.48-1.18c-.1-.26-.08-.54.05-.78.14-.24.38-.4.65-.44l1.26-.18c.1-.01.19-.06.26-.13.07-.07.12-.16.13-.26l.18-1.26c.04-.27.2-.51.44-.65.24-.14.53-.16.78-.05l1.18.48c.09.04.2.04.3.02.1-.03.18-.08.25-.16l.78-1.01Z"></path>
+      <path class="cls-2" d="M7.74,8.05l2.49-2.5c.19-.19.49-.19.67,0l.67.67c.19.19.19.49,0,.67l-3.32,3.33s-.02.03-.03.04l-.67.67c-.09.09-.22.14-.34.14s-.24-.05-.34-.14l-.67-.67s-.02-.02-.03-.04l-1.74-1.74c-.19-.19-.19-.48,0-.67l.67-.67c.19-.19.49-.19.67,0l1.32,1.32h0s.12.12.12.12h0s1.35,1.33,1.35,1.33l-.82-1.86Z"></path>
+    </g>
+  </g>
+  </svg></span>
+                </div>
+            <div class="grp-entangle-item-head-name-group">
+            <div style="display: flex; align-items: center;">
+              
+                <div class="grp-entangle-item-head-name grp-mid">noa erel</div>
+              
+                
+              </div>
+                <div class="grp-entangle-item-date">יוני 14, 2026
+                
+                </div>
+            </div>
+  
+            </div>
+            
+            <div class="grp-entangle-item-head-logo-wrapper">
+            <a href="https://www.google.com/maps/contrib/107922194079594273754/place/ChIJma3fi-NFHBURlbumr4zRmgQ" rel="noreferrer" aria-label="review the reviwers" target="blank"> <svg style="width:17px;height:17px;" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"></path><path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"></path><path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"></path><path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"></path></g></svg>
+            </a>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body-stars" style="text-align: right; display: block;">
+          <div class="grp-entangle-rating" style="display:flex; gap:4px; justify-content:right;">
+            <span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body" style="text-align: right;display: flex; gap: 8px; flex-direction: column; align-items: unset;">
+          <div class="grp-entangle-item-body-review truncated" style="text-align: right; font-size: 14px;" "="">דנה תודה רבה על סדנא מושקעת. היו אלה שעות של התנתקות ועיסוק בעבודת יד מהנה. את סובלנית, מלמדת ביסודיות ומאוד נינוחה.
+מומלץ בחום!!!!</div>
+                
+            
+            
+        </div>
+      </div>
+    
+                                </div><div class=" grp-slider-slide" style="flex: 0 0 275.333px; min-width: 0px; transform: translateX(0px);">
+                            
+      <div class="grp-entangle-item grp-entangle-review-clamp  " style="min-height: 170px; height: auto; margin-top: 0px; background-color: #f6f6f8; color: #303030;  border-radius: 10px;">
+        <div class="grp-entangle-item-head">
+          <div class="grp-entangle-item-head-group-left grp-entangle-item-head-group">
+                <div style="position: relative;">
+            
+              <div class="grp-entangle-item-head-image">
+                <img loading="lazy" src="https://lh3.googleusercontent.com/a-/ALV-UjVAq5cbc0qpc-fP5ztTFJhQKKtB-1lRJTc_61Iq2UIWSvFctJjvjw" class="grp-entangle-item-head-image--image" alt="User Image">
+              </div>
+            
+                <span style="position: absolute; top: 20px; right: -5px; background: white; border-radius: 50%; padding: 2px; display: flex; align-items: center; justify-content: center; z-index: 1;"><svg id="Layer_2" data-name="Layer 2" style="height:15px;width:15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1 {fill: #4285f4;} .cls-1, .cls-2 {fill-rule: evenodd;stroke-width: 0px;}.cls-2 {fill: #fff}</style></defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M7.29.34c.17-.22.43-.34.71-.34s.54.13.71.34l.78,1.01c.06.08.15.14.25.16.1.03.2.02.3-.02l1.18-.48c.26-.1.54-.08.78.05.24.14.4.38.44.65l.18,1.26c.01.1.06.19.13.26.07.07.16.12.26.13l1.26.18c.27.04.51.2.65.44.14.24.16.53.05.78l-.48,1.18c-.04.09-.04.2-.02.3.03.1.08.18.16.25l1.01.79c.22.17.34.43.34.71s-.13.54-.34.71l-1.01.78c-.08.06-.14.15-.16.25-.03.1-.02.2.02.3l.48,1.18c.1.26.08.54-.05.78-.14.24-.38.4-.65.44l-1.26.18c-.1.01-.19.06-.26.13s-.12.16-.13.26l-.18,1.27c-.04.27-.2.51-.44.65-.24.14-.53.16-.78.05l-1.18-.48c-.09-.04-.2-.04-.3-.02-.1.03-.18.08-.25.16l-.78,1.01c-.17.22-.43.34-.71.34s-.54-.13-.71-.34l-.78-1.01c-.06-.08-.15-.14-.25-.16-.1-.03-.2-.02-.3.02l-1.18.48c-.26.1-.54.08-.78-.05-.24-.14-.4-.38-.44-.65l-.18-1.27c-.01-.1-.06-.19-.13-.26-.07-.07-.16-.12-.26-.13l-1.26-.18c-.27-.04-.51-.2-.65-.44-.14-.24-.16-.53-.05-.78l.48-1.18c.04-.09.04-.2.02-.3-.03-.1-.08-.18-.16-.25l-1.01-.78c-.22-.17-.34-.43-.34-.71s.13-.54.34-.71l1.01-.79c.08-.06.14-.15.16-.25.03-.1.02-.2-.02-.3l-.48-1.18c-.1-.26-.08-.54.05-.78.14-.24.38-.4.65-.44l1.26-.18c.1-.01.19-.06.26-.13.07-.07.12-.16.13-.26l.18-1.26c.04-.27.2-.51.44-.65.24-.14.53-.16.78-.05l1.18.48c.09.04.2.04.3.02.1-.03.18-.08.25-.16l.78-1.01Z"></path>
+      <path class="cls-2" d="M7.74,8.05l2.49-2.5c.19-.19.49-.19.67,0l.67.67c.19.19.19.49,0,.67l-3.32,3.33s-.02.03-.03.04l-.67.67c-.09.09-.22.14-.34.14s-.24-.05-.34-.14l-.67-.67s-.02-.02-.03-.04l-1.74-1.74c-.19-.19-.19-.48,0-.67l.67-.67c.19-.19.49-.19.67,0l1.32,1.32h0s.12.12.12.12h0s1.35,1.33,1.35,1.33l-.82-1.86Z"></path>
+    </g>
+  </g>
+  </svg></span>
+                </div>
+            <div class="grp-entangle-item-head-name-group">
+            <div style="display: flex; align-items: center;">
+              
+                <div class="grp-entangle-item-head-name grp-mid">Haddas Semel</div>
+              
+                
+              </div>
+                <div class="grp-entangle-item-date">יוני 12, 2026
+                
+                </div>
+            </div>
+  
+            </div>
+            
+            <div class="grp-entangle-item-head-logo-wrapper">
+            <a href="https://www.google.com/maps/contrib/111562108481451889444/place/ChIJma3fi-NFHBURlbumr4zRmgQ" rel="noreferrer" aria-label="review the reviwers" target="blank"> <svg style="width:17px;height:17px;" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"></path><path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"></path><path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"></path><path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"></path></g></svg>
+            </a>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body-stars" style="text-align: right; display: block;">
+          <div class="grp-entangle-rating" style="display:flex; gap:4px; justify-content:right;">
+            <span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body" style="text-align: right;display: flex; gap: 8px; flex-direction: column; align-items: unset;">
+          <div class="grp-entangle-item-body-review truncated" style="text-align: right; font-size: 14px;" "="">ממליצה בחום על הסדנא של דנה</div>
+                
+            
+            
+        </div>
+      </div>
+    
+                                </div><div class=" grp-slider-slide" style="flex: 0 0 275.333px; min-width: 0px; transform: translateX(0px);">
+                            
+      <div class="grp-entangle-item grp-entangle-review-clamp  " style="min-height: 170px; height: auto; margin-top: 0px; background-color: #f6f6f8; color: #303030;  border-radius: 10px;">
+        <div class="grp-entangle-item-head">
+          <div class="grp-entangle-item-head-group-left grp-entangle-item-head-group">
+                <div style="position: relative;">
+            
+              <div class="grp-entangle-item-head-image">
+                <img loading="lazy" src="https://lh3.googleusercontent.com/a/ACg8ocKhTqkNaEfHLNRd1lh6JxWfFAevmfsBWprx6MIGFclWt_k7lg" class="grp-entangle-item-head-image--image" alt="User Image">
+              </div>
+            
+                <span style="position: absolute; top: 20px; right: -5px; background: white; border-radius: 50%; padding: 2px; display: flex; align-items: center; justify-content: center; z-index: 1;"><svg id="Layer_2" data-name="Layer 2" style="height:15px;width:15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1 {fill: #4285f4;} .cls-1, .cls-2 {fill-rule: evenodd;stroke-width: 0px;}.cls-2 {fill: #fff}</style></defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M7.29.34c.17-.22.43-.34.71-.34s.54.13.71.34l.78,1.01c.06.08.15.14.25.16.1.03.2.02.3-.02l1.18-.48c.26-.1.54-.08.78.05.24.14.4.38.44.65l.18,1.26c.01.1.06.19.13.26.07.07.16.12.26.13l1.26.18c.27.04.51.2.65.44.14.24.16.53.05.78l-.48,1.18c-.04.09-.04.2-.02.3.03.1.08.18.16.25l1.01.79c.22.17.34.43.34.71s-.13.54-.34.71l-1.01.78c-.08.06-.14.15-.16.25-.03.1-.02.2.02.3l.48,1.18c.1.26.08.54-.05.78-.14.24-.38.4-.65.44l-1.26.18c-.1.01-.19.06-.26.13s-.12.16-.13.26l-.18,1.27c-.04.27-.2.51-.44.65-.24.14-.53.16-.78.05l-1.18-.48c-.09-.04-.2-.04-.3-.02-.1.03-.18.08-.25.16l-.78,1.01c-.17.22-.43.34-.71.34s-.54-.13-.71-.34l-.78-1.01c-.06-.08-.15-.14-.25-.16-.1-.03-.2-.02-.3.02l-1.18.48c-.26.1-.54.08-.78-.05-.24-.14-.4-.38-.44-.65l-.18-1.27c-.01-.1-.06-.19-.13-.26-.07-.07-.16-.12-.26-.13l-1.26-.18c-.27-.04-.51-.2-.65-.44-.14-.24-.16-.53-.05-.78l.48-1.18c.04-.09.04-.2.02-.3-.03-.1-.08-.18-.16-.25l-1.01-.78c-.22-.17-.34-.43-.34-.71s.13-.54.34-.71l1.01-.79c.08-.06.14-.15.16-.25.03-.1.02-.2-.02-.3l-.48-1.18c-.1-.26-.08-.54.05-.78.14-.24.38-.4.65-.44l1.26-.18c.1-.01.19-.06.26-.13.07-.07.12-.16.13-.26l.18-1.26c.04-.27.2-.51.44-.65.24-.14.53-.16.78-.05l1.18.48c.09.04.2.04.3.02.1-.03.18-.08.25-.16l.78-1.01Z"></path>
+      <path class="cls-2" d="M7.74,8.05l2.49-2.5c.19-.19.49-.19.67,0l.67.67c.19.19.19.49,0,.67l-3.32,3.33s-.02.03-.03.04l-.67.67c-.09.09-.22.14-.34.14s-.24-.05-.34-.14l-.67-.67s-.02-.02-.03-.04l-1.74-1.74c-.19-.19-.19-.48,0-.67l.67-.67c.19-.19.49-.19.67,0l1.32,1.32h0s.12.12.12.12h0s1.35,1.33,1.35,1.33l-.82-1.86Z"></path>
+    </g>
+  </g>
+  </svg></span>
+                </div>
+            <div class="grp-entangle-item-head-name-group">
+            <div style="display: flex; align-items: center;">
+              
+                <div class="grp-entangle-item-head-name grp-mid">Yam</div>
+              
+                
+              </div>
+                <div class="grp-entangle-item-date">פבר׳ 25, 2026
+                
+                </div>
+            </div>
+  
+            </div>
+            
+            <div class="grp-entangle-item-head-logo-wrapper">
+            <a href="https://www.google.com/maps/contrib/103253290401650788532/place/ChIJma3fi-NFHBURlbumr4zRmgQ" rel="noreferrer" aria-label="review the reviwers" target="blank"> <svg style="width:17px;height:17px;" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"></path><path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"></path><path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"></path><path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"></path></g></svg>
+            </a>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body-stars" style="text-align: right; display: block;">
+          <div class="grp-entangle-rating" style="display:flex; gap:4px; justify-content:right;">
+            <span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body" style="text-align: right;display: flex; gap: 8px; flex-direction: column; align-items: unset;">
+          <div class="grp-entangle-item-body-review truncated" style="text-align: right; font-size: 14px;" "="">סדנה מקסימה, דנה הסבירה מעולה ועזרה לי להתגבר על הפחד ממכונת תפירה! מדהים איזה בובות מתוקות יצאו בסדנה אחת, תוצר סופר שווה ומזכרת מהממת!</div>
+                
+            
+            
+        </div>
+      </div>
+    
+                                </div><div class=" grp-slider-slide" style="flex: 0 0 275.333px; min-width: 0px; transform: translateX(0px);">
+                            
+      <div class="grp-entangle-item grp-entangle-review-clamp  " style="min-height: 170px; height: auto; margin-top: 0px; background-color: #f6f6f8; color: #303030;  border-radius: 10px;">
+        <div class="grp-entangle-item-head">
+          <div class="grp-entangle-item-head-group-left grp-entangle-item-head-group">
+                <div style="position: relative;">
+            
+              <div class="grp-entangle-item-head-image">
+                <img loading="lazy" src="https://lh3.googleusercontent.com/a/ACg8ocJiTycsW9y-xDIijUMtmquo5U4D-aymOXYeIoxg6i0xsk6klQ" class="grp-entangle-item-head-image--image" alt="User Image">
+              </div>
+            
+                <span style="position: absolute; top: 20px; right: -5px; background: white; border-radius: 50%; padding: 2px; display: flex; align-items: center; justify-content: center; z-index: 1;"><svg id="Layer_2" data-name="Layer 2" style="height:15px;width:15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1 {fill: #4285f4;} .cls-1, .cls-2 {fill-rule: evenodd;stroke-width: 0px;}.cls-2 {fill: #fff}</style></defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M7.29.34c.17-.22.43-.34.71-.34s.54.13.71.34l.78,1.01c.06.08.15.14.25.16.1.03.2.02.3-.02l1.18-.48c.26-.1.54-.08.78.05.24.14.4.38.44.65l.18,1.26c.01.1.06.19.13.26.07.07.16.12.26.13l1.26.18c.27.04.51.2.65.44.14.24.16.53.05.78l-.48,1.18c-.04.09-.04.2-.02.3.03.1.08.18.16.25l1.01.79c.22.17.34.43.34.71s-.13.54-.34.71l-1.01.78c-.08.06-.14.15-.16.25-.03.1-.02.2.02.3l.48,1.18c.1.26.08.54-.05.78-.14.24-.38.4-.65.44l-1.26.18c-.1.01-.19.06-.26.13s-.12.16-.13.26l-.18,1.27c-.04.27-.2.51-.44.65-.24.14-.53.16-.78.05l-1.18-.48c-.09-.04-.2-.04-.3-.02-.1.03-.18.08-.25.16l-.78,1.01c-.17.22-.43.34-.71.34s-.54-.13-.71-.34l-.78-1.01c-.06-.08-.15-.14-.25-.16-.1-.03-.2-.02-.3.02l-1.18.48c-.26.1-.54.08-.78-.05-.24-.14-.4-.38-.44-.65l-.18-1.27c-.01-.1-.06-.19-.13-.26-.07-.07-.16-.12-.26-.13l-1.26-.18c-.27-.04-.51-.2-.65-.44-.14-.24-.16-.53-.05-.78l.48-1.18c.04-.09.04-.2.02-.3-.03-.1-.08-.18-.16-.25l-1.01-.78c-.22-.17-.34-.43-.34-.71s.13-.54.34-.71l1.01-.79c.08-.06.14-.15.16-.25.03-.1.02-.2-.02-.3l-.48-1.18c-.1-.26-.08-.54.05-.78.14-.24.38-.4.65-.44l1.26-.18c.1-.01.19-.06.26-.13.07-.07.12-.16.13-.26l.18-1.26c.04-.27.2-.51.44-.65.24-.14.53-.16.78-.05l1.18.48c.09.04.2.04.3.02.1-.03.18-.08.25-.16l.78-1.01Z"></path>
+      <path class="cls-2" d="M7.74,8.05l2.49-2.5c.19-.19.49-.19.67,0l.67.67c.19.19.19.49,0,.67l-3.32,3.33s-.02.03-.03.04l-.67.67c-.09.09-.22.14-.34.14s-.24-.05-.34-.14l-.67-.67s-.02-.02-.03-.04l-1.74-1.74c-.19-.19-.19-.48,0-.67l.67-.67c.19-.19.49-.19.67,0l1.32,1.32h0s.12.12.12.12h0s1.35,1.33,1.35,1.33l-.82-1.86Z"></path>
+    </g>
+  </g>
+  </svg></span>
+                </div>
+            <div class="grp-entangle-item-head-name-group">
+            <div style="display: flex; align-items: center;">
+              
+                <div class="grp-entangle-item-head-name grp-mid">Rina Gadri</div>
+              
+                
+              </div>
+                <div class="grp-entangle-item-date">נוב׳ 23, 2025
+                
+                </div>
+            </div>
+  
+            </div>
+            
+            <div class="grp-entangle-item-head-logo-wrapper">
+            <a href="https://www.google.com/maps/contrib/114222730112745424521/place/ChIJma3fi-NFHBURlbumr4zRmgQ" rel="noreferrer" aria-label="review the reviwers" target="blank"> <svg style="width:17px;height:17px;" viewBox="-3 0 262 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" fill="#4285F4"></path><path d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" fill="#34A853"></path><path d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" fill="#FBBC05"></path><path d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" fill="#EB4335"></path></g></svg>
+            </a>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body-stars" style="text-align: right; display: block;">
+          <div class="grp-entangle-rating" style="display:flex; gap:4px; justify-content:right;">
+            <span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span><span style="display: flex;"><svg class="grp-full-star" xmlns="http://www.w3.org/2000/svg" style="fill:#fe8403" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 122.88 116.864" enable-background="new 0 0 122.88 116.864" xml:space="preserve"><g><polygon fill-rule="evenodd" clip-rule="evenodd" points="61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0"></polygon></g></svg></span>
+          </div>
+        </div>
+        <div class="grp-entangle-item-body" style="text-align: right;display: flex; gap: 8px; flex-direction: column; align-items: unset;">
+          <div class="grp-entangle-item-body-review truncated" style="text-align: right; font-size: 14px;" "="">סדנת הבובות בהדרכת דנה, היה בוקר מהנה ומיוחד. כייף גדול!</div>
+                
+            
+            
+        </div>
+      </div>
+    
+                                </div></div></div></div>
+                 <div class="grp-hover-effect grp-slider-arrow grp-slider-next-grp-entangle--root grp-button-background" style="color: rgb(48, 48, 48); flex: 0 0 auto; cursor: pointer; position: absolute; right: 0px; top: 45%;" "="">
+                    <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+        </div>
+        </div>
+      <div class="grp-pagination-badge-I-grp-entangle--root"><div class="grp-slider-pagination-wrapper slider-pagination" style="display: flex; justify-content: center; align-items: center; gap: 10px; height: 24px;"><button style="border-radius: 50%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; transition: 0.3s; cursor: pointer; padding: 0px; opacity: 0.8; width: 0px; height: 0px; background: rgb(204, 204, 204); display: none;"></button><button style="border-radius: 50%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; transition: 0.3s; cursor: pointer; padding: 0px; opacity: 0.8; width: 0px; height: 0px; background: rgb(204, 204, 204); display: none;"></button><button style="border-radius: 50%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; transition: 0.3s; cursor: pointer; padding: 0px; opacity: 0.8; width: 0px; height: 0px; background: rgb(204, 204, 204); display: none;"></button><button style="border-radius: 50%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; transition: 0.3s; cursor: pointer; padding: 0px; opacity: 0.8; width: 3px; height: 3px; background: rgb(187, 187, 187); display: inline-block;"></button><button style="border-radius: 50%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; transition: 0.3s; cursor: pointer; padding: 0px; opacity: 0.8; width: 5px; height: 5px; background: rgb(187, 187, 187); display: inline-block;"></button><button style="border-radius: 50%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; transition: 0.3s; cursor: pointer; padding: 0px; opacity: 0.8; width: 7px; height: 7px; background: rgb(68, 68, 68); display: inline-block;"></button><button style="border-radius: 50%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; transition: 0.3s; cursor: pointer; padding: 0px; opacity: 0.8; width: 5px; height: 5px; background: rgb(187, 187, 187); display: inline-block;"></button><button style="border-radius: 50%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; transition: 0.3s; cursor: pointer; padding: 0px; opacity: 0.8; width: 3px; height: 3px; background: rgb(187, 187, 187); display: inline-block;"></button><button style="border-radius: 50%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; transition: 0.3s; cursor: pointer; padding: 0px; opacity: 0.8; width: 0px; height: 0px; background: rgb(204, 204, 204); display: none;"></button><button style="border-radius: 50%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; transition: 0.3s; cursor: pointer; padding: 0px; opacity: 0.8; width: 0px; height: 0px; background: rgb(204, 204, 204); display: none;"></button></div></div>
+        </div>
+  </div>
+  
+  </div>
+  
+  <div class="grp-entangle-write-div" style="margin-top:-10px;  display: flex" "="">
+  <div class="grp-entangle-write" style="margin-buttom:0px;">
+  <a target="_blank" rel="noreferrer" href="https://search.google.com/local/reviews?placeid=ChIJma3fi-NFHBURlbumr4zRmgQ" style="
+  gap:3px;
+  font-size: inherit; color: #303030;
+  " class="grp-entangle-all-review" onmouseover="this.style.color='#fe8403'" id="grp-all-reviews" onmouseout="this.style.color='#303030'"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24px" height="24px"><path fill="#fbc02d" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12	s5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24s8.955,20,20,20	s20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path><path fill="#e53935" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039	l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path><path fill="#4caf50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36	c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path><path fill="#1565c0" d="M43.611,20.083L43.595,20L42,20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571	c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path></svg> <span>Show all Reviews</span> </a>
+  </div>
+  </div>
+    </div><style>null</style> <style> #shopify-section-google_reviews_plus_3FTrrV #grp-entangle--root {background-color: #e7e3d8 !important;} </style></div>
