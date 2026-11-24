@@ -202,6 +202,11 @@
         'border-radius:12px;' +
         'direction:' + (cfg.rtl ? 'rtl' : 'ltr') + ';' +
         'font-family:inherit;' +
+        'width:100%;' +
+        'max-width:100%;' +
+        'box-sizing:border-box;' +
+        'overflow:hidden;' +
+        'position:relative;' +
       '}' +
       '#' + widgetId + ' .noovi-rev-track{' +
         'display:flex;' +
@@ -209,10 +214,21 @@
         'overflow:hidden;' +
         'will-change:transform;' +
         'transition:transform 0.45s ease;' +
+        'width:100%;' +
+        'box-sizing:border-box;' +
+        // In RTL, flex items naturally align right; flip flex-direction to
+        // ensure consistent behavior across browsers (some don't reverse
+        // flex-direction with direction:rtl alone).
+        (cfg.rtl ? 'flex-direction:row-reverse;' : '') +
       '}' +
       '#' + widgetId + ' .noovi-rev-card-outer{' +
         'flex:0 0 ' + cfg.cardWidth + 'px;' +
         'min-width:0;' +
+        'box-sizing:border-box;' +
+      '}' +
+      // Arrows sit inside the root; pad the track so cards don't slide under them
+      '#' + widgetId + ' .noovi-rev-arrow{' +
+        'box-shadow:0 1px 4px rgba(0,0,0,0.1);' +
       '}'
 
     // Mobile breakpoint — switch to mobile sizing.
