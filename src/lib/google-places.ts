@@ -64,15 +64,20 @@ export async function fetchPlaceReviews(
     "reviews",
   ].join(",")
 
-  const url = `${PLACES_BASE}/${encodeURIComponent(placeId)}?fields=${encodeURIComponent(fields)}&key=${encodeURIComponent(apiKey)}&languageCode=he&reviewsSort=newest`
+  // Places API (New) v1 — header-based auth + field mask (recommended).
+  // Note: the API returns the 5 most helpful reviews for the place; it does
+  // NOT support pagination on reviews, and does NOT accept `reviewsSort` or
+  // `languageCode` as URL query params (those are not part of the v1 schema).
+  // Use `Accept-Language` header to hint at preferred language for originalText.
+  const url = `${PLACES_BASE}/${encodeURIComponent(placeId)}`
 
   const res = await fetch(url, {
     method: "GET",
     headers: {
       "X-Goog-Api-Key": apiKey,
       "X-Goog-FieldMask": fields,
+      "Accept-Language": "he",
     },
-    // We can't use a key on the URL AND header safely; use the header only (recommended).
   })
 
   if (!res.ok) {
@@ -102,7 +107,9 @@ export async function fetchPlaceReviews(
 
   return {
     placeId,
-    displayName: json.displayName,
+    displayName: typeof json.displayName === "string"
+      ? json.displayName
+      : json.displayName?.text,
     rating: typeof json.rating === "number" ? json.rating : undefined,
     userRatingCount: typeof json.userRatingCount === "number" ? json.userRatingCount : undefined,
     reviews,
