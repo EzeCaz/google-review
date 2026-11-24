@@ -216,10 +216,9 @@
         'transition:transform 0.45s ease;' +
         'width:100%;' +
         'box-sizing:border-box;' +
-        // In RTL, flex items naturally align right; flip flex-direction to
-        // ensure consistent behavior across browsers (some don't reverse
-        // flex-direction with direction:rtl alone).
-        (cfg.rtl ? 'flex-direction:row-reverse;' : '') +
+        // direction:rtl on the root already reverses flex main-axis in modern
+        // browsers — don't add flex-direction:row-reverse on top of it (the two
+        // cancel out, putting cards back in LTR order).
       '}' +
       '#' + widgetId + ' .noovi-rev-card-outer{' +
         'flex:0 0 ' + cfg.cardWidth + 'px;' +
@@ -354,9 +353,12 @@
       } else {
         cw = cfg.desktopCardWidth + cfg.desktopCardGap
       }
-      // RTL flips direction
-      var translate = -currentIndex * cw
-      if (cfg.rtl) translate = currentIndex * cw
+      // LTR: cards align left, overflow right. To reveal later cards (higher
+      //      index), shift track LEFT => negative translate.
+      // RTL: cards align right (direction:rtl on the root), overflow LEFT.
+      //      To reveal later cards (higher index, positioned to the LEFT of
+      //      the visible ones), shift track RIGHT => positive translate.
+      var translate = cfg.rtl ? currentIndex * cw : -currentIndex * cw
       track.style.transform = 'translateX(' + translate + 'px)'
     }
 
