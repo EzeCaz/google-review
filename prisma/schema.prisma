@@ -6,12 +6,13 @@ generator client {
 }
 
 datasource db {
-  // Switched to postgres for Vercel serverless compatibility.
-  // Set DATABASE_URL to a Postgres connection string (e.g. Vercel Postgres / Neon).
-  // For local dev you can still use SQLite by setting DATABASE_URL=file:./db/custom.db
-  // and changing the provider below to "sqlite" temporarily — but for production
-  // serverless deploys you must use postgres.
-  provider = "postgresql"
+  // On Vercel serverless, file:./db/custom.db would be read-only.
+  // We use SQLite written to /tmp on Vercel (writable, but per-instance).
+  // The cron job re-seeds fresh data daily, and ensureDemoShop() auto-creates
+  // the demo shop on any cold start so the widget always renders.
+  // For shared/persistent data across instances, switch to postgres and
+  // set DATABASE_URL to a Postgres connection string.
+  provider = "sqlite"
   url      = env("DATABASE_URL")
 }
 
