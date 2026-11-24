@@ -261,13 +261,14 @@
         'box-sizing:border-box;' +
       '}' +
       '#' + widgetId + ' .noovi-rev-card-outer{' +
-        // flex-basis is the SMALLER of the configured card width OR
-        // (container - 2*gap) / 3 — this ensures exactly 3 cards fit across
-        // on desktop, regardless of container width. If the container is
-        // wider than 3*cardWidth + 2*gap, cards stay at configured width
-        // and more than 3 fit (which is fine — the carousel handles it).
-        // If the container is narrower, cards shrink so exactly 3 fit.
-        'flex:0 0 min(var(--card-w), calc((100% - 2 * var(--card-gap)) / 3));' +
+        // flex-basis is the LARGER of the configured card width OR
+        // (container - 2*gap) / 3 — this makes each card GROW to fill
+        // the container so exactly 3 cards fit across on desktop.
+        // If the container is wider than 3*configuredWidth + 2*gap,
+        // cards grow beyond the configured width to fill the space.
+        // If narrower, cards stay at the configured width and fewer fit
+        // (the carousel handles showing the rest via sliding).
+        'flex:0 0 max(var(--card-w), calc((100% - 2 * var(--card-gap)) / 3));' +
         'min-width:0;' +
         'box-sizing:border-box;' +
       '}' +
