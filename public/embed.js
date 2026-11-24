@@ -170,12 +170,7 @@
     var s = payload.shop
     var cfg = s.config
 
-    // Noovi.co business badge — sits in the top CENTER of the header.
-    // Contains: logo image | business name | 5 stars | "N Google Reviews" link.
-    // This replaces the old "5.0 ★ 44 Google Reviews" text on the right side
-    // (which duplicated info already in the badge).
     var logoUrl = 'https://assets.entanglecommerce.com/google-review-assets/place/noovi-co.myshopify.com/logo/1776255838_69df835e59fae.jpeg'
-    var mapsUrl = 'https://www.google.com/maps/search/?api=1&query=Google&query_place_id=' + encodeURIComponent(s.placeId || '')
     var reviewsUrl = 'https://search.google.com/local/reviews?placeid=' + encodeURIComponent(s.placeId || '')
 
     var badge =
@@ -200,23 +195,22 @@
       '</div>'
 
     var writeBtn = cfg.showWriteButton
-      ? '<a target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:6px;' +
+      ? '<a class="noovi-rev-write-btn" target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:6px;' +
         'padding:8px 14px;border-radius:8px;background:white;color:' + cfg.cardTextColor +
         ';font-weight:600;text-decoration:none;font-size:14px;border:1px solid rgba(0,0,0,0.08);"' +
         ' href="' + escapeHtml(reviewsUrl) + '">' +
         googleBadgeSvg(18) + '<span>Write a review</span></a>'
       : ''
 
-    // Layout: [empty spacer] [centered badge] [right-aligned write button]
-    // Using flex with two equal spacers forces the badge into the visual center.
+    // Layout (RTL):
+    //   Desktop: [write button LEFT] ... [badge RIGHT]  (space-between)
+    //   Mobile:  [badge centered on TOP]
+    //            [write button centered BELOW]
+    // CSS in injectStyles handles the responsive switch via media query.
     return (
-      '<div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;' +
-        'padding:0 0 16px 0;">' +
-        '<div style="flex:1 1 0;min-width:60px;"></div>' +
+      '<div class="noovi-rev-header">' +
         badge +
-        '<div style="flex:1 1 0;min-width:60px;display:flex;justify-content:flex-end;">' +
-          writeBtn +
-        '</div>' +
+        '<div class="noovi-rev-write-wrap">' + writeBtn + '</div>' +
       '</div>'
     )
   }
@@ -234,36 +228,81 @@
         'box-sizing:border-box;' +
         'overflow:hidden;' +
         'position:relative;' +
+        // CSS custom properties — used for responsive card sizing
+        '--card-w:' + cfg.cardWidth + 'px;' +
+        '--card-gap:' + cfg.cardGap + 'px;' +
+        '--card-w-mob:' + cfg.cardWidthMobile + 'px;' +
+        '--card-gap-mob:' + cfg.cardGapMobile + 'px;' +
       '}' +
+
+      // Header layout:
+      //   Desktop (RTL): badge on RIGHT, write button on LEFT (space-between)
+      //   Mobile: badge centered on TOP, write button centered BELOW (column)
+      '#' + widgetId + ' .noovi-rev-header{' +
+        'display:flex;' +
+        'align-items:center;' +
+        'justify-content:space-between;' +
+        'gap:16px;' +
+        'flex-wrap:wrap;' +
+        'padding:0 0 16px 0;' +
+      '}' +
+      '#' + widgetId + ' .noovi-rev-write-wrap{' +
+        'display:flex;' +
+        'align-items:center;' +
+      '}' +
+
       '#' + widgetId + ' .noovi-rev-track{' +
         'display:flex;' +
-        'gap:' + cfg.cardGap + 'px;' +
+        'gap:var(--card-gap);' +
         'overflow:hidden;' +
         'will-change:transform;' +
         'transition:transform 0.45s ease;' +
         'width:100%;' +
         'box-sizing:border-box;' +
-        // direction:rtl on the root already reverses flex main-axis in modern
-        // browsers — don't add flex-direction:row-reverse on top of it (the two
-        // cancel out, putting cards back in LTR order).
       '}' +
       '#' + widgetId + ' .noovi-rev-card-outer{' +
-        'flex:0 0 ' + cfg.cardWidth + 'px;' +
+        // flex-basis from config, but max-width ensures cards shrink to fit
+        // exactly 3 across on desktop (regardless of container width)
+        'flex:0 0 var(--card-w);' +
+        'max-width:calc((100% - 2 * var(--card-gap)) / 3);' +
         'min-width:0;' +
         'box-sizing:border-box;' +
       '}' +
-      // Arrows sit inside the root; pad the track so cards don't slide under them
       '#' + widgetId + ' .noovi-rev-arrow{' +
         'box-shadow:0 1px 4px rgba(0,0,0,0.1);' +
       '}'
 
-    // Mobile breakpoint — switch to mobile sizing.
+    // Mobile breakpoint:
+    //   - Smaller padding
+    //   - Stack header vertically (badge on top, write button below, both centered)
+    //   - Card takes ~85% of container width (room for peek of next card)
+    //   - Smaller badge (logo 40px, font 14px)
     css +=
       '@media (max-width:767px){' +
-        '#' + widgetId + '{padding:' + (cfg.paddingMobile || '16px') + ';}' +
-        '#' + widgetId + ' .noovi-rev-track{gap:' + cfg.cardGapMobile + 'px;}' +
+        '#' + widgetId + '{' +
+          'padding:' + (cfg.paddingMobile || '12px') + ';' +
+        '}' +
+        '#' + widgetId + ' .noovi-rev-header{' +
+          'flex-direction:column;' +
+          'align-items:center;' +
+          'justify-content:center;' +
+          'gap:12px;' +
+        '}' +
+        '#' + widgetId + ' .noovi-rev-write-wrap{' +
+          'order:2;' + /* below the badge */
+        '}' +
+        '#' + widgetId + ' .noovi-rev-badge{' +
+          'max-width:100% !important;' +
+        '}' +
+        '#' + widgetId + ' .noovi-rev-badge img{' +
+          'width:40px !important;height:40px !important;' +
+        '}' +
+        '#' + widgetId + ' .noovi-rev-track{' +
+          'gap:var(--card-gap-mob);' +
+        '}' +
         '#' + widgetId + ' .noovi-rev-card-outer{' +
-          'flex:0 0 ' + cfg.cardWidthMobile + 'px;' +
+          'flex:0 0 var(--card-w-mob);' +
+          'max-width:calc(100% - 24px);' + /* 1 card + peek of next */
         '}' +
       '}'
 
@@ -354,15 +393,32 @@
     var nextBtn = root.querySelector('.noovi-rev-next')
     var currentIndex = 0
 
+    // Measure the ACTUAL rendered card width (including gap) from the DOM.
+    // The CSS max-width constraint may shrink cards to fit the container
+    // (e.g. 3 across on desktop regardless of container width), so we can't
+    // use the config value directly.
+    function actualCardPlusGap() {
+      var firstCard = track.querySelector('.noovi-rev-card-outer')
+      if (!firstCard) return cfg.desktopCardWidth + cfg.desktopCardGap
+      var cardW = firstCard.getBoundingClientRect().width
+      var gap = parseFloat(getComputedStyle(track).gap) || 0
+      return cardW + gap
+    }
+
     function visibleCount() {
-      var w = root.clientWidth
-      // On mobile breakpoint (<=767), use mobile card width + gap.
-      if (w <= 767) {
-        var cw = cfg.mobileCardWidth + cfg.mobileCardGap
-        return Math.max(1, Math.floor((w + cfg.mobileCardGap) / cw))
-      }
-      var cwd = cfg.desktopCardWidth + cfg.desktopCardGap
-      return Math.max(1, Math.floor((w + cfg.desktopCardGap) / cwd))
+      var trackWidth = track.clientWidth
+      var cw = actualCardPlusGap()
+      if (cw <= 0) return 1
+      // floor(trackWidth / (cardWidth + gap)) gives the number of full cards
+      // that fit. Adding the gap back to trackWidth accounts for the gap
+      // after the last visible card not being needed.
+      return Math.max(1, Math.floor((trackWidth + (cw - firstCardWidth())) / cw))
+    }
+
+    function firstCardWidth() {
+      var firstCard = track.querySelector('.noovi-rev-card-outer')
+      if (!firstCard) return cfg.desktopCardWidth
+      return firstCard.getBoundingClientRect().width
     }
 
     function maxIndex() {
@@ -373,18 +429,10 @@
     function slideTo(i) {
       var max = maxIndex()
       currentIndex = Math.max(0, Math.min(i, max))
-      var cw
-      var w = root.clientWidth
-      if (w <= 767) {
-        cw = cfg.mobileCardWidth + cfg.mobileCardGap
-      } else {
-        cw = cfg.desktopCardWidth + cfg.desktopCardGap
-      }
-      // LTR: cards align left, overflow right. To reveal later cards (higher
-      //      index), shift track LEFT => negative translate.
-      // RTL: cards align right (direction:rtl on the root), overflow LEFT.
-      //      To reveal later cards (higher index, positioned to the LEFT of
-      //      the visible ones), shift track RIGHT => positive translate.
+      var cw = actualCardPlusGap()
+      // LTR: cards align left, overflow right. Shift track LEFT => negative.
+      // RTL: cards align right (direction:rtl on root), overflow LEFT.
+      //      Shift track RIGHT => positive to reveal cards on the LEFT.
       var translate = cfg.rtl ? currentIndex * cw : -currentIndex * cw
       track.style.transform = 'translateX(' + translate + 'px)'
     }
@@ -457,10 +505,22 @@
         })
     }
 
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', load)
+    // Defer loading by 3 seconds after the page's load event fires.
+    // This lets the browser paint the page and run critical scripts first,
+    // improving Lighthouse / Core Web Vitals scores. The reviews widget is
+    // below-the-fold content that doesn't need to block initial render.
+    var DELAY_MS = 3000
+
+    function scheduleLoad() {
+      setTimeout(load, DELAY_MS)
+    }
+
+    if (document.readyState === 'complete') {
+      // Page already loaded (e.g. script loaded late via async) — schedule now
+      scheduleLoad()
     } else {
-      load()
+      // Wait for the page's load event, then schedule the deferred load
+      window.addEventListener('load', scheduleLoad)
     }
 
     // Refresh every 5 minutes so a daily refresh is reflected without reload.
