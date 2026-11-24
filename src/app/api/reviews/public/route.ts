@@ -1,6 +1,10 @@
 import { NextRequest, NextResponse } from "next/server"
-import { db } from "@/lib/db"
-import { ensureDemoShop } from "@/lib/reviews-service"
+import {
+  findShop,
+  findShopReviewsByShopDomain,
+  ensureDemoShop,
+} from "@/lib/reviews-service"
+import type { ShopConfig } from "@/lib/types"
 
 export const dynamic = "force-dynamic"
 export const revalidate = 0
@@ -28,16 +32,7 @@ export async function GET(req: NextRequest) {
   // Auto-create the demo shop on first call so the widget always renders.
   await ensureDemoShop()
 
-  const shop = await db.shop.findUnique({
-    where: { shopDomain },
-    include: {
-      reviews: {
-        orderBy: { publishedAt: "desc" },
-        take: 50,
-      },
-    },
-  })
-
+  const shop = findShop(shopDomain)
   if (!shop) {
     return NextResponse.json(
       { error: "Shop not found" },
@@ -45,40 +40,44 @@ export async function GET(req: NextRequest) {
     )
   }
 
+  const reviews = findShopReviewsByShopDomain(shopDomain, 50)
+
+  const config: ShopConfig = {
+    desktopCardWidth: shop.desktopCardWidth,
+    desktopCardHeight: shop.desktopCardHeight,
+    desktopCardGap: shop.desktopCardGap,
+    desktopCardsVisible: shop.desktopCardsVisible,
+    mobileCardWidth: shop.mobileCardWidth,
+    mobileCardHeight: shop.mobileCardHeight,
+    mobileCardGap: shop.mobileCardGap,
+    mobileCardsVisible: shop.mobileCardsVisible,
+    accentColor: shop.accentColor,
+    cardBg: shop.cardBg,
+    cardTextColor: shop.cardTextColor,
+    widgetBg: shop.widgetBg,
+    maxReviews: shop.maxReviews,
+    autoplay: shop.autoplay,
+    autoplaySpeed: shop.autoplaySpeed,
+    showHeader: shop.showHeader,
+    showWriteButton: shop.showWriteButton,
+    rtl: shop.rtl,
+  }
+
   const payload = {
     shop: {
       shopDomain: shop.shopDomain,
       businessName: shop.businessName,
       placeId: shop.placeId,
-      rating: shop.rating ?? 0,
-      userRatingTotal: shop.userRatingTotal ?? 0,
+      rating: shop.rating,
+      userRatingTotal: shop.userRatingTotal,
       lastSyncedAt: shop.lastSyncedAt,
       lastSyncStatus: shop.lastSyncStatus,
-      config: {
-        desktopCardWidth: shop.desktopCardWidth,
-        desktopCardHeight: shop.desktopCardHeight,
-        desktopCardGap: shop.desktopCardGap,
-        desktopCardsVisible: shop.desktopCardsVisible,
-        mobileCardWidth: shop.mobileCardWidth,
-        mobileCardHeight: shop.mobileCardHeight,
-        mobileCardGap: shop.mobileCardGap,
-        mobileCardsVisible: shop.mobileCardsVisible,
-        accentColor: shop.accentColor,
-        cardBg: shop.cardBg,
-        cardTextColor: shop.cardTextColor,
-        widgetBg: shop.widgetBg,
-        maxReviews: shop.maxReviews,
-        autoplay: shop.autoplay,
-        autoplaySpeed: shop.autoplaySpeed,
-        showHeader: shop.showHeader,
-        showWriteButton: shop.showWriteButton,
-        rtl: shop.rtl,
-      },
+      config,
     },
-    reviews: shop.reviews.map((r) => ({
-      id: r.googleId,
-      author: r.authorName,
-      photo: r.authorPhoto,
+    reviews: reviews.map((r) => ({
+      id: r.id,
+      author: r.author,
+      photo: r.photo,
       rating: r.rating,
       text: r.text,
       language: r.language,

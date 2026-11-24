@@ -1,7 +1,10 @@
 import { NextRequest, NextResponse } from "next/server"
 import { z } from "zod"
-import { db } from "@/lib/db"
-import { ensureDemoShop } from "@/lib/reviews-service"
+import {
+  findShop,
+  upsertShop,
+  ensureDemoShop,
+} from "@/lib/reviews-service"
 import type { ShopConfig } from "@/lib/types"
 
 export const dynamic = "force-dynamic"
@@ -47,11 +50,9 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Missing ?shop= param" }, { status: 400 })
   }
   await ensureDemoShop()
-  const shop = await db.shop.findUnique({ where: { shopDomain } })
+  const shop = findShop(shopDomain)
   if (!shop) return NextResponse.json({ error: "Shop not found" }, { status: 404 })
 
-  // Group flat fields into nested config so the client type is shared with the
-  // public endpoint.
   const config: ShopConfig = {
     desktopCardWidth: shop.desktopCardWidth,
     desktopCardHeight: shop.desktopCardHeight,
@@ -115,10 +116,7 @@ export async function POST(req: NextRequest) {
   await ensureDemoShop()
 
   const { shopDomain: _ignored, ...update } = data
-  const shop = await db.shop.update({
-    where: { shopDomain },
-    data: update as any,
-  })
+  const shop = upsertShop({ shopDomain, ...update } as any)
 
   return NextResponse.json({ ok: true, shop })
 }

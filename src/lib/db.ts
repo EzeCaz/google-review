@@ -1,41 +1,15 @@
-import { PrismaClient } from '@prisma/client'
-import path from 'path'
-import fs from 'fs'
+// Database layer is now `src/lib/store.ts` (JSON-on-disk).
+//
+// Prisma was removed from the runtime path because the Prisma query engine
+// binary doesn't bundle cleanly on Vercel serverless, and SQLite file locks
+// misbehave when /tmp is per-instance.
+//
+// For a reviews widget that holds ~10 rows and is refreshed daily, JSON-on-disk
+// is simpler, faster, has zero cold-start overhead, and works identically on
+// Vercel, Render, Railway, and local dev.
+//
+// To switch to a real database later (e.g. Postgres on Neon/Vercel Postgres),
+// replace `src/lib/store.ts` with a Prisma-backed implementation and set
+// DATABASE_URL to your Postgres connection string.
 
-const globalForPrisma = globalThis as unknown as {
-  prisma: PrismaClient | undefined
-}
-
-/**
- * Database file resolution:
- * - Local dev: DATABASE_URL env var, defaults to file:./db/custom.db
- * - Vercel: write the SQLite file into /tmp (the only writable dir on serverless).
- *   Each cold start gets a fresh /tmp; ensureDemoShop() auto-seeds demo reviews
- *   and the daily cron re-fetches real Google reviews into the same file.
- *
- * To use a persistent Postgres instead (recommended for production multi-instance),
- * set DATABASE_URL to a postgres connection string and switch the provider in
- * prisma/schema.prisma to "postgresql".
- */
-function resolveDatabaseUrl(): string {
-  if (process.env.DATABASE_URL) return process.env.DATABASE_URL
-  // Vercel serverless: writable /tmp
-  if (process.env.VERCEL) {
-    const tmpDir = '/tmp'
-    try { fs.mkdirSync(tmpDir, { recursive: true }) } catch {}
-    return `file:${path.join(tmpDir, 'noovi-reviews.db')}`
-  }
-  // Local dev fallback
-  return 'file:./db/custom.db'
-}
-
-const databaseUrl = resolveDatabaseUrl()
-
-export const db =
-  globalForPrisma.prisma ??
-  new PrismaClient({
-    datasources: { db: { url: databaseUrl } },
-    log: process.env.NODE_ENV === 'development' ? ['error', 'warn'] : ['error'],
-  })
-
-if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = db
+export {}

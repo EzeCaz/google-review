@@ -15,7 +15,11 @@ dist/
 # prisma
 db/*.db
 db/*.db-journal
+db/*.json
 prisma/migrations/dev/
+
+# local secrets (do not commit)
+.cron_secret.txt
 
 # env
 .env
