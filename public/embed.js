@@ -169,28 +169,55 @@
   function buildHeader(payload) {
     var s = payload.shop
     var cfg = s.config
-    var ratingText =
-      '<div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">' +
-        '<span style="font-size:24px;font-weight:700;color:' + cfg.cardTextColor + ';">' +
-          (s.rating ? Number(s.rating).toFixed(1) : '0.0') +
-        '</span>' +
-        renderStars(s.rating || 0, 22, cfg.accentColor) +
-        '<span style="font-size:14px;opacity:0.7;color:' + cfg.cardTextColor + ';">' +
-          (s.userRatingTotal || 0) + ' Google Reviews' +
-        '</span>' +
+
+    // Noovi.co business badge — sits in the top CENTER of the header.
+    // Contains: logo image | business name | 5 stars | "N Google Reviews" link.
+    // This replaces the old "5.0 ★ 44 Google Reviews" text on the right side
+    // (which duplicated info already in the badge).
+    var logoUrl = 'https://assets.entanglecommerce.com/google-review-assets/place/noovi-co.myshopify.com/logo/1776255838_69df835e59fae.jpeg'
+    var mapsUrl = 'https://www.google.com/maps/search/?api=1&query=Google&query_place_id=' + encodeURIComponent(s.placeId || '')
+    var reviewsUrl = 'https://search.google.com/local/reviews?placeid=' + encodeURIComponent(s.placeId || '')
+
+    var badge =
+      '<div class="noovi-rev-badge" style="display:flex;align-items:center;gap:12px;' +
+        'padding:8px 14px;border-radius:10px;background:white;' +
+        'box-shadow:0 1px 3px rgba(0,0,0,0.06);">' +
+        '<img src="' + escapeHtml(logoUrl) + '" alt="' + escapeHtml(s.businessName || 'Noovi.co') +
+          ' logo" loading="lazy" style="width:48px;height:48px;border-radius:8px;object-fit:cover;flex:0 0 auto;" />' +
+        '<div style="display:flex;flex-direction:column;line-height:1.2;gap:3px;min-width:160px;">' +
+          '<div style="font-size:16px;font-weight:700;color:' + cfg.cardTextColor + ';">' +
+            escapeHtml(s.businessName || 'Noovi.co') +
+          '</div>' +
+          '<div style="display:flex;">' + renderStars(s.rating || 0, 17, cfg.accentColor) + '</div>' +
+          '<a target="_blank" rel="noreferrer" href="' + escapeHtml(reviewsUrl) + '" ' +
+            'style="font-size:13px;color:' + cfg.cardTextColor + ';text-decoration:none;' +
+            'transition:color 0.2s;" ' +
+            'onmouseover="this.style.color=\'' + cfg.accentColor + '\'" ' +
+            'onmouseout="this.style.color=\'' + cfg.cardTextColor + '\'">' +
+            '<b>' + (s.userRatingTotal || 0) + ' Google Reviews</b>' +
+          '</a>' +
+        '</div>' +
       '</div>'
 
     var writeBtn = cfg.showWriteButton
       ? '<a target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:6px;' +
         'padding:8px 14px;border-radius:8px;background:white;color:' + cfg.cardTextColor +
         ';font-weight:600;text-decoration:none;font-size:14px;border:1px solid rgba(0,0,0,0.08);"' +
-        ' href="https://search.google.com/local/reviews?placeid=' + encodeURIComponent(s.placeId || '') + '">' +
+        ' href="' + escapeHtml(reviewsUrl) + '">' +
         googleBadgeSvg(18) + '<span>Write a review</span></a>'
       : ''
 
+    // Layout: [empty spacer] [centered badge] [right-aligned write button]
+    // Using flex with two equal spacers forces the badge into the visual center.
     return (
-      '<div style="display:flex;justify-content:space-between;align-items:center;gap:16px;' +
-      'flex-wrap:wrap;padding:0 0 12px 0;">' + ratingText + writeBtn + '</div>'
+      '<div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;' +
+        'padding:0 0 16px 0;">' +
+        '<div style="flex:1 1 0;min-width:60px;"></div>' +
+        badge +
+        '<div style="flex:1 1 0;min-width:60px;display:flex;justify-content:flex-end;">' +
+          writeBtn +
+        '</div>' +
+      '</div>'
     )
   }
 
@@ -374,34 +401,26 @@
 
     slideTo(0)
 
-    // Autoplay
+    // Autoplay — slides ONE card at a time every N seconds (per config).
+    // Continues until the last review is shown, then resets to the start.
+    // Pause on hover, resume on mouseleave.
     if (cfg.autoplay) {
-      var interval = setInterval(function () {
-        var v = visibleCount()
+      var autoplayTick = function () {
         var max = maxIndex()
         if (currentIndex >= max) {
           slideTo(0)
         } else {
-          slideTo(currentIndex + v)
+          slideTo(currentIndex + 1)
         }
-      }, cfg.autoplaySpeed || 5000)
+      }
+      var interval = setInterval(autoplayTick, cfg.autoplaySpeed || 5000)
 
-      // Pause on hover
       root.addEventListener('mouseenter', function () {
         clearInterval(interval)
       })
-      // Restart on mouseleave
       root.addEventListener('mouseleave', function () {
         clearInterval(interval)
-        interval = setInterval(function () {
-          var v = visibleCount()
-          var max = maxIndex()
-          if (currentIndex >= max) {
-            slideTo(0)
-          } else {
-            slideTo(currentIndex + v)
-          }
-        }, cfg.autoplaySpeed || 5000)
+        interval = setInterval(autoplayTick, cfg.autoplaySpeed || 5000)
       })
     }
   }
