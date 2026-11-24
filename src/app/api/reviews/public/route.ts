@@ -5,6 +5,7 @@ import {
   ensureDemoShop,
   refreshShopReviews,
   upsertShop,
+  applyEnvOverrides,
 } from "@/lib/reviews-service"
 import { fetchPlaceReviews } from "@/lib/google-places"
 import type { ShopConfig } from "@/lib/types"
@@ -40,9 +41,12 @@ export async function GET(req: NextRequest) {
   }
 
   // Auto-create the demo shop on first call so the widget always renders.
+  // ensureDemoShop applies env var overrides (NOOVI_CONFIG_OVERRIDE,
+  // GOOGLE_PLACES_API_KEY, GOOGLE_PLACE_ID) so config changes via env vars
+  // take effect immediately, even on fresh instances with empty /tmp.
   await ensureDemoShop()
 
-  let shop = findShop(shopDomain)
+  let shop = applyEnvOverrides(findShop(shopDomain)!)
   if (!shop) {
     return NextResponse.json(
       { error: "Shop not found" },
@@ -51,8 +55,7 @@ export async function GET(req: NextRequest) {
   }
 
   // Backfill the shop's Google credentials from env vars if not set in the
-  // local store. This lets every Vercel instance fetch reviews from Google
-  // directly without depending on per-instance /tmp state.
+  // local store (defensive — applyEnvOverrides above already does this).
   const ENV_GOOGLE_API_KEY = process.env.GOOGLE_PLACES_API_KEY
   const ENV_GOOGLE_PLACE_ID = process.env.GOOGLE_PLACE_ID
   if (
@@ -65,7 +68,7 @@ export async function GET(req: NextRequest) {
       googleApiKey: ENV_GOOGLE_API_KEY,
       placeId: ENV_GOOGLE_PLACE_ID,
     })
-    shop = findShop(shopDomain)!
+    shop = applyEnvOverrides(findShop(shopDomain)!)
   }
 
   // If the shop has Google credentials AND the local cache is empty or stale

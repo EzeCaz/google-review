@@ -4,6 +4,7 @@ import {
   findShop,
   upsertShop,
   ensureDemoShop,
+  applyEnvOverrides,
 } from "@/lib/reviews-service"
 import type { ShopConfig } from "@/lib/types"
 
@@ -50,7 +51,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Missing ?shop= param" }, { status: 400 })
   }
   await ensureDemoShop()
-  const shop = findShop(shopDomain)
+  const shop = applyEnvOverrides(findShop(shopDomain)!)
   if (!shop) return NextResponse.json({ error: "Shop not found" }, { status: 404 })
 
   const config: ShopConfig = {

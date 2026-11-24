@@ -169,22 +169,66 @@ const DEMO_REVIEWS = [
   },
 ]
 
+/**
+ * Parse the NOOVI_CONFIG_OVERRIDE env var (JSON) and return the overrides.
+ * This lets the merchant set config values that survive Vercel's per-instance
+ * /tmp resets — every instance reads the same env vars on cold start.
+ *
+ * Example env var value:
+ *   {"widgetBg":"#E7E3D8","autoplaySpeed":3000}
+ */
+function getConfigOverridesFromEnv(): Partial<ShopRow> {
+  const raw = process.env.NOOVI_CONFIG_OVERRIDE
+  if (!raw) return {}
+  try {
+    const parsed = JSON.parse(raw)
+    return parsed as Partial<ShopRow>
+  } catch {
+    return {}
+  }
+}
+
+/**
+ * Apply env var overrides to a shop. Called on every read of the shop config
+ * so that env var changes take effect immediately on the next request,
+ * without needing to wait for the local store to be updated.
+ */
+export function applyEnvOverrides(shop: ShopRow): ShopRow {
+  const overrides = getConfigOverridesFromEnv()
+  if (Object.keys(overrides).length === 0) return shop
+  // Also backfill Google creds from env if missing locally
+  if (process.env.GOOGLE_PLACES_API_KEY && !shop.googleApiKey) {
+    (overrides as any).googleApiKey = process.env.GOOGLE_PLACES_API_KEY
+  }
+  if (process.env.GOOGLE_PLACE_ID && !shop.placeId) {
+    (overrides as any).placeId = process.env.GOOGLE_PLACE_ID
+  }
+  return { ...shop, ...overrides }
+}
+
 export async function ensureDemoShop(): Promise<ShopRow> {
+  // Always apply env overrides on read so config changes via env vars
+  // take effect immediately, even on instances with stale /tmp state.
   const existing = findShop('noovi-co.myshopify.com')
-  if (existing) return existing
+  if (existing) return applyEnvOverrides(existing)
+
+  // Apply env overrides to the demo shop defaults on creation
+  const envOverrides = getConfigOverridesFromEnv()
 
   const shop = upsertShop({
     shopDomain: 'noovi-co.myshopify.com',
     businessName: 'Noovi.co',
-    placeId: 'ChIJma3fi-NFHBURlbumr4zRmgQ', // their actual Google Place ID
-    googleApiKey: null,
+    placeId: process.env.GOOGLE_PLACE_ID || 'ChIJma3fi-NFHBURlbumr4zRmgQ',
+    googleApiKey: process.env.GOOGLE_PLACES_API_KEY || null,
     rating: 5.0,
     userRatingTotal: 44,
     lastSyncedAt: new Date().toISOString(),
-    lastSyncStatus: 'demo',
+    lastSyncStatus: process.env.GOOGLE_PLACES_API_KEY ? 'ok' : 'demo',
+    ...envOverrides,
   })
 
-  // Seed demo reviews
+  // Seed demo reviews (only if no real reviews exist yet — the cron or
+  // admin sync will replace these with real Google reviews)
   const rows: Array<Omit<ReviewRow, 'id'>> = DEMO_REVIEWS.map((r) => ({
     id: 'demo_' + (r.authorName + r.publishTime).split('').reduce((a, c) => a + c.charCodeAt(0), 0).toString(36),
     author: r.authorName,
@@ -198,7 +242,7 @@ export async function ensureDemoShop(): Promise<ShopRow> {
   }))
   setShopReviews(shop.id, rows)
 
-  return shop
+  return applyEnvOverrides(shop)
 }
 
 export { findShop, findShopReviewsByShopDomain, upsertShop }
