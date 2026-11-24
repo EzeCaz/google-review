@@ -253,12 +253,13 @@
 
       '#' + widgetId + ' .noovi-rev-track{' +
         'display:flex;' +
-        // flex-direction:row-reverse puts the FIRST card at the RIGHT edge
-        // and subsequent cards extend LEFT. This is what we want for RTL.
-        // (direction:rtl on the root handles text alignment within cards;
-        // we don't set direction:rtl on the track itself because it doesn't
-        // reliably reverse flex item order across browsers.)
-        (cfg.rtl ? 'flex-direction:row-reverse;' : '') +
+        // For RTL: use flex-direction:row-reverse to put card 0 at the RIGHT
+        // edge and subsequent cards extending LEFT. Do NOT set direction:rtl
+        // on the track itself — direction:rtl + flex-direction:row-reverse
+        // cancel each other out (cards end up in LTR order). The root has
+        // direction:rtl for text alignment within cards; the track inherits
+        // text direction but we override flex order explicitly.
+        (cfg.rtl ? 'flex-direction:row-reverse;direction:ltr;' : '') +
         'gap:var(--card-gap);' +
         'overflow:hidden;' +
         'will-change:transform;' +
@@ -270,13 +271,12 @@
         // flex-basis is the LARGER of the configured card width OR
         // (container - 2*gap) / 3 — this makes each card GROW to fill
         // the container so exactly 3 cards fit across on desktop.
-        // If the container is wider than 3*configuredWidth + 2*gap,
-        // cards grow beyond the configured width to fill the space.
-        // If narrower, cards stay at the configured width and fewer fit
-        // (the carousel handles showing the rest via sliding).
         'flex:0 0 max(var(--card-w), calc((100% - 2 * var(--card-gap)) / 3));' +
         'min-width:0;' +
         'box-sizing:border-box;' +
+        // Restore RTL text direction inside cards (the track uses direction:ltr
+        // to avoid canceling flex-direction:row-reverse, but card content needs RTL).
+        (cfg.rtl ? 'direction:rtl;' : '') +
       '}' +
       '#' + widgetId + ' .noovi-rev-arrow{' +
         'box-shadow:0 1px 4px rgba(0,0,0,0.1);' +
