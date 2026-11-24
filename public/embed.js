@@ -253,6 +253,12 @@
 
       '#' + widgetId + ' .noovi-rev-track{' +
         'display:flex;' +
+        // flex-direction:row-reverse puts the FIRST card at the RIGHT edge
+        // and subsequent cards extend LEFT. This is what we want for RTL.
+        // (direction:rtl on the root handles text alignment within cards;
+        // we don't set direction:rtl on the track itself because it doesn't
+        // reliably reverse flex item order across browsers.)
+        (cfg.rtl ? 'flex-direction:row-reverse;' : '') +
         'gap:var(--card-gap);' +
         'overflow:hidden;' +
         'will-change:transform;' +
@@ -434,10 +440,13 @@
       var max = maxIndex()
       currentIndex = Math.max(0, Math.min(i, max))
       var cw = actualCardPlusGap()
-      // LTR: cards align left, overflow right. Shift track LEFT => negative.
-      // RTL: cards align right (direction:rtl on root), overflow LEFT.
-      //      Shift track RIGHT => positive to reveal cards on the LEFT.
-      var translate = cfg.rtl ? currentIndex * cw : -currentIndex * cw
+      // With flex-direction:row-reverse (RTL), card 0 is at the RIGHT edge
+      // and subsequent cards extend LEFT (overflow to the left, clipped by
+      // overflow:hidden). To reveal later cards (higher index), shift the
+      // track LEFT => negative translate. This is the SAME direction as LTR.
+      // (Previously we used positive translate for RTL, which was wrong with
+      // row-reverse — it shifted cards further right, off-screen.)
+      var translate = -currentIndex * cw
       track.style.transform = 'translateX(' + translate + 'px)'
     }
 
