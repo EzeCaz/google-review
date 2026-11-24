@@ -223,7 +223,10 @@ export async function ensureDemoShop(): Promise<ShopRow> {
     rating: 5.0,
     userRatingTotal: 44,
     lastSyncedAt: new Date().toISOString(),
-    lastSyncStatus: process.env.GOOGLE_PLACES_API_KEY ? 'ok' : 'demo',
+    // 'demo' signals to the public endpoint that the local store has demo
+    // reviews (not real Google-fetched ones) and a lazy refresh is needed.
+    // The public endpoint will fetch from Google on first request.
+    lastSyncStatus: 'demo',
     ...envOverrides,
   })
 
