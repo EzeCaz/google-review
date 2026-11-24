@@ -6,7 +6,12 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  // Switched to postgres for Vercel serverless compatibility.
+  // Set DATABASE_URL to a Postgres connection string (e.g. Vercel Postgres / Neon).
+  // For local dev you can still use SQLite by setting DATABASE_URL=file:./db/custom.db
+  // and changing the provider below to "sqlite" temporarily — but for production
+  // serverless deploys you must use postgres.
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
