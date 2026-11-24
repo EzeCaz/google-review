@@ -4,6 +4,7 @@ import {
   findShopReviewsByShopDomain,
   ensureDemoShop,
   refreshShopReviews,
+  upsertShop,
 } from "@/lib/reviews-service"
 import { fetchPlaceReviews } from "@/lib/google-places"
 import type { ShopConfig } from "@/lib/types"
@@ -47,6 +48,24 @@ export async function GET(req: NextRequest) {
       { error: "Shop not found" },
       { status: 404 }
     )
+  }
+
+  // Backfill the shop's Google credentials from env vars if not set in the
+  // local store. This lets every Vercel instance fetch reviews from Google
+  // directly without depending on per-instance /tmp state.
+  const ENV_GOOGLE_API_KEY = process.env.GOOGLE_PLACES_API_KEY
+  const ENV_GOOGLE_PLACE_ID = process.env.GOOGLE_PLACE_ID
+  if (
+    ENV_GOOGLE_API_KEY &&
+    ENV_GOOGLE_PLACE_ID &&
+    (!shop.googleApiKey || !shop.placeId)
+  ) {
+    upsertShop({
+      shopDomain,
+      googleApiKey: ENV_GOOGLE_API_KEY,
+      placeId: ENV_GOOGLE_PLACE_ID,
+    })
+    shop = findShop(shopDomain)!
   }
 
   // If the shop has Google credentials AND the local cache is empty or stale
